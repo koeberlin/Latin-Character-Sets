@@ -2,10 +2,10 @@
 
 > Did you know that almost none of the Latin based fonts support the languages of the seventh most populous country in the world?[^1]
 
-While working on Pangea Afrikan I decided to create 4 new contemporary Latin character sets for type designers who care.
-You can read more about the thoughts behind it on my blog: 
+While working on [Pangea Afrikan](https://fontwerk.com/fonts/pangea-afrikan) I decided to create 4 new contemporary Latin character sets for type designers who care.
+You can read more about the thoughts behind it on my blog: [More Latin!](https://christoph.koe.berlin/articles/en/more_latin/)
 
-Please note that only characters for language support are included, no figures, punctuation etc. Additional currency symbols are however contained to make the font fully usable in countries whose languages they support.[^2]
+Please note that only characters for language support are included; no figures, punctuation etc. Additional currency symbols are however contained to make the font fully usable in countries whose languages they support.[^2]
 
 The character sets build on each other. For Latin M e.g. Latin S also needs to be supported.
 
