@@ -13,6 +13,8 @@ The character sets build on each other. For Latin M e.g. Latin S also needs to b
 There’s nothing extended about what’s most often referred to as *Latin Extended*.
 *Latin S* is a new approach to a handy base character set that doesn’t take much more effort, but has a rather big impact on language support.
 
+Here’s a closer look at it: [Designing Latin S](https://github.com/koeberlin/Designing-Latin-S)
+
 Compared to the common practice, it
 
 * requires ≈80 additional glyphs (most of which are composites of existing glyphs though, such as Ẽǒʼ).
