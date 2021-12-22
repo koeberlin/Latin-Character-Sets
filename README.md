@@ -775,7 +775,7 @@ For the uppercase Eng I suggest the [enlarged lowercase n-form](https://en.wikip
 There’s no unicode for j with acute so I recommend including these for Dutch.
 
 ##### /L\_periodcentered.latnCAT/l\⁠_periodcentered.latnCAT 
-I recommend to include these glyphs instead of the encoded characters /Ldot/ldot (0x013F, 0x0140). 
+I recommend including these glyphs instead of the encoded characters /Ldot/ldot (0x013F, 0x0140). 
 
 #### OpenType features
 
@@ -2597,6 +2597,8 @@ Put the [CustomFilters](CharacterSets/Glyphs) file in the same place as your Gly
 
 ### RoboFont
 You can import the [FontSets](CharacterSets/RoboFont) in your UFO file.
+
+[CJ Dunn](https://github.com/cjdunn) also prepared [handy formulas](https://gist.github.com/cjdunn/5dcdb313e8f877018fd4c073503e8248) for the Glyph Construction extension.
 
 ### Etc
 For everything else there are several [lists](CharacterSets/Universal) with names and unicodes.
