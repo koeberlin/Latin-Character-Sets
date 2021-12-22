@@ -160,8 +160,6 @@
 					<string>gbreve</string>
 					<string>Gdotaccent</string>
 					<string>gdotaccent</string>
-					<string>Gcedilla</string>
-					<string>gcedilla</string>
 					<string>Hcircumflex</string>
 					<string>hcircumflex</string>
 					<string>Hbar</string>
@@ -178,20 +176,14 @@
 					<string>dotlessi</string>
 					<string>Jcircumflex</string>
 					<string>jcircumflex</string>
-					<string>Kcedilla</string>
-					<string>kcedilla</string>
 					<string>Lacute</string>
 					<string>lacute</string>
-					<string>Lcedilla</string>
-					<string>lcedilla</string>
 					<string>Lcaron</string>
 					<string>lcaron</string>
 					<string>Lslash</string>
 					<string>lslash</string>
 					<string>Nacute</string>
 					<string>nacute</string>
-					<string>Ncedilla</string>
-					<string>ncedilla</string>
 					<string>Ncaron</string>
 					<string>ncaron</string>
 					<string>Eng</string>
@@ -206,8 +198,6 @@
 					<string>oe</string>
 					<string>Racute</string>
 					<string>racute</string>
-					<string>Rcedilla</string>
-					<string>rcedilla</string>
 					<string>Rcaron</string>
 					<string>rcaron</string>
 					<string>Sacute</string>
@@ -891,6 +881,16 @@
 					<string>macroncomb_dieresiscomb</string>
 					<string>macroncomb_gravecomb</string>
 					<string>macroncomb_acutecomb</string>
+					<string>Gcedilla</string>
+					<string>gcedilla</string>
+					<string>Kcedilla</string>
+					<string>kcedilla</string>
+					<string>Lcedilla</string>
+					<string>lcedilla</string>
+					<string>Ncedilla</string>
+					<string>ncedilla</string>
+					<string>Rcedilla</string>
+					<string>rcedilla</string>					
 				</array>
 				<key>smartSetName</key>
 				<string>Latin L</string>
