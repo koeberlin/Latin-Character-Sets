@@ -26,6 +26,7 @@ Btw, it includes the [Pan-Nigerian alphabet](https://en.wikipedia.org/wiki/Pan-N
 <details><summary>Characters in Latin S</summary>
 
 | Char | Unicode | AGLFN name | 
+| Char | Unicode | AGLFN name | 
 | --- | --- | --- |
 | A | 0041 | A |
 | Á | 00C1 | Aacute |
@@ -185,8 +186,7 @@ Btw, it includes the [Pan-Nigerian alphabet](https://en.wikipedia.org/wiki/Pan-N
 | Ž | 017D | Zcaron |
 | Ż | 017B | Zdotaccent |
 | Ẓ | 1E92 | uni1E92 |
-|  | None | J.latnNLD |
-|  | None | L_periodcentered.latnCAT |
+|  | None | L_periodcentered.loclCAT |
 | a | 0061 | a |
 | á | 00E1 | aacute |
 | ă | 0103 | abreve |
@@ -346,14 +346,14 @@ Btw, it includes the [Pan-Nigerian alphabet](https://en.wikipedia.org/wiki/Pan-N
 | ž | 017E | zcaron |
 | ż | 017C | zdotaccent |
 | ẓ | 1E93 | uni1E93 |
-|  | None | j.latnNLD |
-|  | None | l_periodcentered.latnCAT |
+|  | None | l_periodcentered.loclCAT |
 | ₵ | 20B5 | uni20B5 |
 | ₡ | 20A1 | colonmonetary |
 | ₲ | 20B2 | uni20B2 |
 | ₺ | 20BA | uni20BA |
 | ₼ | 20BC | uni20BC |
 | ₦ | 20A6 | uni20A6 |
+| ₹ | 20B9 | uni20B9 |
 | ̈ | 0308 | uni0308 |
 | ̇ | 0307 | uni0307 |
 | ̀ | 0300 | gravecomb |
@@ -771,13 +771,18 @@ Source: Hyperglot (Version 0.3.6)
 ##### /Eng (Ŋ)
 For the uppercase Eng I suggest the [enlarged lowercase n-form](https://en.wikipedia.org/wiki/Eng_(letter)) which is preferred in African languages. I added a localized form for the Sami languages in *Latin L*.
 
-##### /J.latnNLD/j.latnNLD (/Jacute/jacute)
-There’s no unicode for j with acute so I recommend including these for Dutch.
-
-##### /L\_periodcentered.latnCAT/l\⁠_periodcentered.latnCAT 
+##### /L\_periodcentered.loclCAT/l\⁠_periodcentered.loclCAT 
 I recommend including these glyphs instead of the encoded characters /Ldot/ldot (0x013F, 0x0140). 
 
 #### OpenType features
+
+##### ccmp
+
+The best practice for the Dutch /j with acute (that doesn’t have a Unicode) is to use the combining acute `U+0301`. But we have to get rid of the dot on the /j first, so `ccmp` should include somthing like this:
+
+```
+sub j' acutecomb by jdotless;
+```
 
 ##### locl
 Use something like this in your `locl` feature:
@@ -797,17 +802,13 @@ sub scedilla by scommaaccent;
 sub Tcedilla by Tcommaaccent;
 sub tcedilla by tcommaaccent;
 
-language NLD;
-sub iacute j' by j.latnNLD;
-sub Iacute J' by J.latnNLD;
-
 language CAT;
-sub l' periodcentered' l by l_periodcentered.latnCAT;
-sub L' periodcentered' L by L_periodcentered.latnCAT;
+sub l' periodcentered' l by l_periodcentered.loclCAT;
+sub L' periodcentered' L by L_periodcentered.loclCAT;
 ```
 
 ##### mark 
-For a wider language support, a proper `mark` feature is recommended.
+For a wider language support (including the Dutch /j with acute), a proper `mark` feature is strongly recommended.
 
 
 
@@ -1443,11 +1444,14 @@ Essential resource: Donny Trương’s [vietnamesetypography.com](https://vietna
 | Ɉ | 0248 | uni0248 |
 | Ḱ | 1E30 | uni1E30 |
 | Ǩ | 01E8 | uni01E8 |
+| Ꝁ | A740 | uniA740 |
 | Ǉ | 01C7 | uni01C7 |
 | Ƚ | 023D | uni023D |
 | Ɬ | A7AD | uniA7AD |
 | Ḽ | 1E3C | uni1E3C |
 | Ŀ | 013F | Ldot |
+| Ⱡ | 2C60 | uni2C60 |
+| Ɫ | 2C62 | uni2C62 |
 | ǈ | 01C8 | uni01C8 |
 | Ḿ | 1E3E | uni1E3E |
 | Ɱ | 2C6E | uni2C6E |
@@ -1472,6 +1476,7 @@ Essential resource: Donny Trương’s [vietnamesetypography.com](https://vietna
 | Ṍ | 1E4C | uni1E4C |
 | Ṏ | 1E4E | uni1E4E |
 | Ȭ | 022C | uni022C |
+| Ȣ | 0222 | uni0222 |
 | Ṕ | 1E54 | uni1E54 |
 | Ƥ | 01A4 | uni01A4 |
 | Ᵽ | 2C63 | uni2C63 |
@@ -1485,6 +1490,7 @@ Essential resource: Donny Trương’s [vietnamesetypography.com](https://vietna
 | Ṧ | 1E66 | uni1E66 |
 | Ṡ | 1E60 | uni1E60 |
 | Ṩ | 1E68 | uni1E68 |
+| Ꞩ | A7A8 | uniA7A8 |
 | Ŧ | 0166 | Tbar |
 | Ṱ | 1E70 | uni1E70 |
 | Ⱦ | 023E | uni023E |
@@ -1500,6 +1506,7 @@ Essential resource: Donny Trương’s [vietnamesetypography.com](https://vietna
 | Ʊ | 01B1 | uni01B1 |
 | Ṹ | 1E78 | uni1E78 |
 | Ṵ | 1E74 | uni1E74 |
+| Ꞹ | A7B8 | uniA7B8 |
 | Ɣ | 0194 | uni0194 |
 | Ṿ | 1E7E | uni1E7E |
 | Ʋ | 01B2 | uni01B2 |
@@ -1517,11 +1524,11 @@ Essential resource: Donny Trương’s [vietnamesetypography.com](https://vietna
 | Ω | 03A9 | uni03A9 |
 |  | None | uni01F0.case |
 |  | None | uni0295.case |
-|  | None | uni013B.latnMAH |
-|  | None | uni0145.latnMAH |
-|  | None | Aogonek.latnNAV |
-|  | None | Eogonek.latnNAV |
-|  | None | Eng.latnNSM |
+|  | None | uni013B.loclMAH |
+|  | None | uni0145.loclMAH |
+|  | None | Aogonek.loclNAV |
+|  | None | Eogonek.loclNAV |
+|  | None | Eng.loclNSM |
 | ȁ | 0201 | uni0201 |
 | ǟ | 01DF | uni01DF |
 | ȧ | 0227 | uni0227 |
@@ -1598,12 +1605,15 @@ Essential resource: Donny Trương’s [vietnamesetypography.com](https://vietna
 | ɉ | 0249 | uni0249 |
 | ḱ | 1E31 | uni1E31 |
 | ǩ | 01E9 | uni01E9 |
+| ꝁ | A741 | uniA741 |
 | ĸ | 0138 | kgreenlandic |
 | ƛ | 019B | uni019B |
 | ƚ | 019A | uni019A |
 | ɬ | 026C | uni026C |
 | ḽ | 1E3D | uni1E3D |
 | ŀ | 0140 | ldot |
+| ⱡ | 2C61 | uni2C61 |
+| ɫ | 026B | uni026B |
 | ǉ | 01C9 | uni01C9 |
 | ḿ | 1E3F | uni1E3F |
 | ɱ | 0271 | uni0271 |
@@ -1628,6 +1638,7 @@ Essential resource: Donny Trương’s [vietnamesetypography.com](https://vietna
 | ṍ | 1E4D | uni1E4D |
 | ṏ | 1E4F | uni1E4F |
 | ȭ | 022D | uni022D |
+| ȣ | 0223 | uni0223 |
 | ṕ | 1E55 | uni1E55 |
 | ɸ | 0278 | uni0278 |
 | ƥ | 01A5 | uni01A5 |
@@ -1645,6 +1656,7 @@ Essential resource: Donny Trương’s [vietnamesetypography.com](https://vietna
 | ṧ | 1E67 | uni1E67 |
 | ṡ | 1E61 | uni1E61 |
 | ṩ | 1E69 | uni1E69 |
+| ꞩ | A7A9 | uniA7A9 |
 | ſ | 017F | longs |
 | ẛ | 1E9B | uni1E9B |
 | ŧ | 0167 | tbar |
@@ -1664,6 +1676,7 @@ Essential resource: Donny Trương’s [vietnamesetypography.com](https://vietna
 | ʊ | 028A | uni028A |
 | ṹ | 1E79 | uni1E79 |
 | ṵ | 1E75 | uni1E75 |
+| ꞹ | A7B9 | uniA7B9 |
 | ṿ | 1E7F | uni1E7F |
 | ʋ | 028B | uni028B |
 | ṽ | 1E7D | uni1E7D |
@@ -1681,10 +1694,10 @@ Essential resource: Donny Trương’s [vietnamesetypography.com](https://vietna
 | θ | 03B8 | theta |
 | λ | 03BB | lambda |
 | ω | 03C9 | omega |
-|  | None | uni013C.latnMAH |
-|  | None | uni0146.latnMAH |
-|  | None | aogonek.latnNAV |
-|  | None | eogonek.latnNAV |
+|  | None | uni013C.loclMAH |
+|  | None | uni0146.loclMAH |
+|  | None | aogonek.loclNAV |
+|  | None | eogonek.loclNAV |
 | ǂ | 01C2 | uni01C2 |
 | ǀ | 01C0 | uni01C0 |
 | ǁ | 01C1 | uni01C1 |
@@ -1714,11 +1727,17 @@ Essential resource: Donny Trương’s [vietnamesetypography.com](https://vietna
 | ₛ | 209B | uni209B |
 | ᶿ | 1DBF | uni1DBF |
 | ₜ | 209C | uni209C |
+| ᵘ | 1D58 | uni1D58 |
+| ᵛ | 1D5B | uni1D5B |
 | ᶻ | 1DBB | uni1DBB |
 | ˀ | 02C0 | uni02C0 |
 | ˁ | 02C1 | uni02C1 |
 | ʹ | 02B9 | uni02B9 |
 | ˈ | 02C8 | uni02C8 |
+| ꞉ | A789 | uniA789 |
+| ˮ | 02EE | uni02EE |
+| ˗ | 02D7 | uni02D7 |
+| ꞊ | A78A | uniA78A |
 |  | None | uni03080300 |
 |  | None | uni03080301 |
 |  | None | uni0308030C |
@@ -1734,6 +1753,10 @@ Essential resource: Donny Trương’s [vietnamesetypography.com](https://vietna
 |  | None | uni03040308 |
 |  | None | uni03040300 |
 |  | None | uni03040301 |
+| ᷇ | 1DC7 | uni1DC7 |
+| ᷆ | 1DC6 | uni1DC6 |
+| ᷅ | 1DC5 | uni1DC5 |
+| ᷄ | 1DC4 | uni1DC4 |
 | ̍ | 030D | uni030D |
 | ̏ | 030F | uni030F |
 | ̑ | 0311 | uni0311 |
@@ -1750,8 +1773,12 @@ Essential resource: Donny Trương’s [vietnamesetypography.com](https://vietna
 | ͜ | 035C | uni035C |
 | ͝ | 035D | uni035D |
 | ͡ | 0361 | uni0361 |
-| ᷇ | 1DC7 | uni1DC7 |
-| ᷆ | 1DC6 | uni1DC6 |
+| ᷊ | 1DCA | uni1DCA |
+| ̴ | 0334 | uni0334 |
+| ͘ | 0358 | uni0358 |
+| ˊ | 02CA | uni02CA |
+| ˋ | 02CB | uni02CB |
+
 
 </details>
 
@@ -2228,13 +2255,13 @@ Source: Hyperglot (Version 0.3.6)
 ##### /Fhook/florin (Ƒƒ)
 In African languages, lowercase f with hook is an actual letter, even if it shares the codepoint with the Florin currency.
 
-##### /Eng.latnNSM
+##### /Eng.loclNSM
 If your default Eng has the enlarged lowercase n-form (see *Latin S*), this one should be the [uppercase N-form](https://en.wikipedia.org/wiki/Eng_(letter)) for Northern Sami and Skolt Sami.
 
-##### /Lcommaaccent.latnMAH/Ncommaaccent.latnMAH /lcommaaccent.latnMAH/ncommaaccent.latnMAH
+##### /Lcommaaccent.loclMAH/Ncommaaccent.loclMAH /lcommaaccent.loclMAH/ncommaaccent.loclMAH
 In Marshallese, centered cedillas are preferred over comma accents.
 
-##### /Aogonek.latnNAV/Eogonek.latnNAV/aogonek.latnNAV/eogonek.latnNAV
+##### /Aogonek.loclNAV/Eogonek.loclNAV/aogonek.loclNAV/eogonek.loclNAV
 In Navajo, ogoneks should be centered below the base letters.
 
 ##### /Alpha-latin/Beta-latin/Chi-latin/Omega-latin (ⱭꞴꞳꞶ)
@@ -2261,21 +2288,21 @@ Use something like this in your `locl` feature:
 
 ```
 language NSM;
-sub Eng by Eng.latnNSM;
+sub Eng by Eng.loclNSM;
 language SKS;
-sub Eng by Eng.latnNSM;
+sub Eng by Eng.loclNSM;
 
 language MAH;
-sub Lcommaaccent by Lcommaaccent.latnMAH;
-sub Ncommaaccent by Ncommaaccent.latnMAH;
-sub lcommaaccent by lcommaaccent.latnMAH;
-sub ncommaaccent by ncommaaccent.latnMAH;
+sub Lcommaaccent by Lcommaaccent.loclMAH;
+sub Ncommaaccent by Ncommaaccent.loclMAH;
+sub lcommaaccent by lcommaaccent.loclMAH;
+sub ncommaaccent by ncommaaccent.loclMAH;
 
 language NAV;
-sub Aogonek by Aogonek.latnNAV;
-sub Eogonek by Eogonek.latnNAV;
-sub aogonek by aogonek.latnNAV;
-sub eogonek by eogonek.latnNAV;
+sub Aogonek by Aogonek.loclNAV;
+sub Eogonek by Eogonek.loclNAV;
+sub aogonek by aogonek.loclNAV;
+sub eogonek by eogonek.loclNAV;
 ```
 
 ##### mark 
@@ -2291,7 +2318,6 @@ For full language support, a proper `mark` feature is required.
 | --- | --- | --- |
 | Ɜ | A7AB | uniA7AB |
 | Ʞ | A7B0 | uniA7B0 |
-| Ɫ | 2C62 | uni2C62 |
 | Ʇ | A7B1 | uniA7B1 |
 | ʙ | 0299 | uni0299 |
 | ᴅ | 1D05 | uni1D05 |
@@ -2349,7 +2375,6 @@ For full language support, a proper `mark` feature is required.
 | ʞ | 029E | uni029E |
 | ɮ | 026E | uni026E |
 | ɭ | 026D | uni026D |
-| ɫ | 026B | uni026B |
 | ᶅ | 1D85 | uni1D85 |
 | ꞎ | A78E | uniA78E |
 | ʪ | 02AA | uni02AA |
@@ -2437,7 +2462,6 @@ For full language support, a proper `mark` feature is required.
 | ᶶ | 1DB6 | uni1DB6 |
 | ᶷ | 1DB7 | uni1DB7 |
 | ᶹ | 1DB9 | uni1DB9 |
-| ᵛ | 1D5B | uni1D5B |
 | ᶺ | 1DBA | uni1DBA |
 | ᶽ | 1DBD | uni1DBD |
 | ᶼ | 1DBC | uni1DBC |
@@ -2457,9 +2481,7 @@ For full language support, a proper `mark` feature is required.
 | ˄ | 02C4 | uni02C4 |
 | ˹ | 02F9 | uni02F9 |
 | ˻ | 02FB | uni02FB |
-| ꞉ | A789 | uniA789 |
 | ˟ | 02DF | uni02DF |
-| ˮ | 02EE | uni02EE |
 | ˕ | 02D5 | uni02D5 |
 | ˺ | 02FA | uni02FA |
 | ˼ | 02FC | uni02FC |
@@ -2473,7 +2495,6 @@ For full language support, a proper `mark` feature is required.
 | ˶ | 02F6 | uni02F6 |
 | ˵ | 02F5 | uni02F5 |
 | ˴ | 02F4 | uni02F4 |
-| ˗ | 02D7 | uni02D7 |
 | ˾ | 02FE | uni02FE |
 | ˖ | 02D6 | uni02D6 |
 | ˸ | 02F8 | uni02F8 |
@@ -2481,7 +2502,6 @@ For full language support, a proper `mark` feature is required.
 | ˓ | 02D3 | uni02D3 |
 | ˒ | 02D2 | uni02D2 |
 | ˽ | 02FD | uni02FD |
-| ꞊ | A78A | uniA78A |
 | ˥ | 02E5 | uni02E5 |
 | ˩ | 02E9 | uni02E9 |
 | ˦ | 02E6 | uni02E6 |
@@ -2526,7 +2546,6 @@ For full language support, a proper `mark` feature is required.
 | ̫ | 032B | uni032B |
 | ̬ | 032C | uni032C |
 | ̳ | 0333 | uni0333 |
-| ̴ | 0334 | uni0334 |
 | ̶ | 0336 | uni0336 |
 | ̷ | 0337 | uni0337 |
 | ̸ | 0338 | uni0338 |
@@ -2556,7 +2575,6 @@ For full language support, a proper `mark` feature is required.
 | ͕ | 0355 | uni0355 |
 | ͖ | 0356 | uni0356 |
 | ͗ | 0357 | uni0357 |
-| ͘ | 0358 | uni0358 |
 | ͙ | 0359 | uni0359 |
 | ͚ | 035A | uni035A |
 | ͛ | 035B | uni035B |
@@ -2566,11 +2584,7 @@ For full language support, a proper `mark` feature is required.
 | ͢ | 0362 | uni0362 |
 | ᷉ | 1DC9 | uni1DC9 |
 | ᷈ | 1DC8 | uni1DC8 |
-| ᷅ | 1DC5 | uni1DC5 |
-| ᷄ | 1DC4 | uni1DC4 |
 | ˉ | 02C9 | uni02C9 |
-| ˊ | 02CA | uni02CA |
-| ˋ | 02CB | uni02CB |
 | ˪ | 02EA | uni02EA |
 | ˫ | 02EB | uni02EB |
 | ˏ | 02CF | uni02CF |
@@ -2625,9 +2639,18 @@ Please contribute to Hyperglot, give feedback, and join the discussion to furthe
 ### Reference fonts
 * [Brill Typeface](https://brill.com/page/BrillFont/brill-typeface)
 * [Noto](https://fonts.google.com/noto) 
+* [Questrial](https://fonts.google.com/specimen/Questrial)
 * [SIL fonts](https://software.sil.org/fonts/)
 
 # Changelog
+
+### v0.9.1
+* Removed prebuilt Dutch j_acutecomb.latnNLD from Latin S, added `ccmp` feature suggestion. (Thank you, [Erik & Colin](https://github.com/koeberlin/Latin-Character-Sets/discussions/4))
+* Rupee sign (U+20B9) added to Latin S (Thank you, [Lorp](https://github.com/Lorp))
+* Localized glyph names fixed in Robofont FontSet (Thank you, [CJ Dunn](https://github.com/cjdunn))
+* Changed glyph name suffixes from .latn* to .locl* for a better integration in Glyphs automatic OpenType feature builder (Thank you, Nika Langosz)
+* Some additions to Latin L, some transitions from Latin XL to Latin L, according to [GF Latin African](https://github.com/googlefonts/glyphsets/tree/main/GF_glyphsets/Latin#gf-latin-african)
+
 ### v0.9.0
 Initial release as Beta
 

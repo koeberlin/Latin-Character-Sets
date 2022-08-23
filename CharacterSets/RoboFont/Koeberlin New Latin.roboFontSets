@@ -2,7 +2,7 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <!-- 
 	Source: https://github.com/koeberlin/Latin-Character-Sets
-	Version 0.9.0 
+	Version 0.9.1 
 -->
 <plist version="1.0">
 <array>
@@ -352,12 +352,11 @@
 					<string>naira</string>
 					<string>guarani</string>
 					<string>cedi</string>
+					<string>indianrupee</string>
 					<string>turkishlira</string>
 					<string>manat</string>
-					<string>J.latnNLD</string>
-					<string>L_periodcentered.latnCAT</string>
-					<string>j.latnNLD</string>
-					<string>l_periodcentered.latnCAT</string>
+					<string>L_periodcentered.loclCAT</string>
+					<string>l_periodcentered.loclCAT</string>
 				</array>
 				<key>smartSetName</key>
 				<string>Latin S</string>
@@ -623,6 +622,8 @@
 					<string>Hcaron</string>
 					<string>hcaron</string>
 					<string>Nlongrightleg</string>
+					<string>Ou</string>
+					<string>ou</string>
 					<string>Adot</string>
 					<string>adot</string>
 					<string>Ecedilla</string>
@@ -670,6 +671,7 @@
 					<string>henghook</string>
 					<string>ipa:iota</string>
 					<string>ipa:Ismall</string>
+					<string>lmiddletilde</string>
 					<string>lbelt</string>
 					<string>mturned</string>
 					<string>mhook</string>
@@ -700,9 +702,13 @@
 					<string>glottalstopmod</string>
 					<string>glottalstopreversedmod</string>
 					<string>verticallinemod</string>
+					<string>acutemod</string>
+					<string>gravemod</string>
+					<string>minussignmod</string>
 					<string>lsupmod</string>
 					<string>ssupmod</string>
 					<string>xsupmod</string>
+					<string>apostrophedblmod</string>
 					<string>verticallineabovecmb</string>
 					<string>gravedoublecmb</string>
 					<string>invertedbrevecmb</string>
@@ -716,6 +722,8 @@
 					<string>invertedbelowbrevecmb</string>
 					<string>tildebelowcmb</string>
 					<string>lowlinecmb</string>
+					<string>tildeoverlaycmb</string>
+					<string>dotrightabovecmb</string>
 					<string>doublebelowbrevecmb</string>
 					<string>doublebrevecmb</string>
 					<string>inverteddoublebrevecmb</string>
@@ -729,11 +737,16 @@
 					<string>theta</string>
 					<string>lambda</string>
 					<string>omega</string>
+					<string>umod</string>
+					<string>vmod</string>
 					<string>pstroke</string>
 					<string>zmod</string>
 					<string>thetamod</string>
+					<string>macronacutecmb</string>
+					<string>gravemacroncmb</string>
 					<string>macrongravecmb</string>
 					<string>acutemacroncmb</string>
+					<string>rbelowcmb</string>
 					<string>Aringbelow</string>
 					<string>aringbelow</string>
 					<string>Bdot</string>
@@ -837,6 +850,9 @@
 					<string>s.inferior</string>
 					<string>t.inferior</string>
 					<string>creversed</string>
+					<string>Ldblbar</string>
+					<string>ldblbar</string>
+					<string>Lmiddletilde</string>
 					<string>Pstroke</string>
 					<string>Rtail</string>
 					<string>astroke</string>
@@ -849,11 +865,17 @@
 					<string>whook</string>
 					<string>Heng</string>
 					<string>heng</string>
+					<string>Kstroke</string>
+					<string>kstroke</string>
+					<string>colonmod</string>
+					<string>shortequalsmod</string>
 					<string>Saltillo</string>
 					<string>saltillo</string>
 					<string>Hturned</string>
 					<string>Fstroke</string>
 					<string>fstroke</string>
+					<string>Sobliquestroke</string>
+					<string>sobliquestroke</string>
 					<string>Hhook</string>
 					<string>Scriptg</string>
 					<string>Lbelt</string>
@@ -864,33 +886,35 @@
 					<string>lt:beta</string>
 					<string>lt:Omega</string>
 					<string>lt:omega</string>
+					<string>Ustroke</string>
+					<string>ustroke</string>
 					<string>lt:chi</string>
-					<string>glottalstopreversed.case</string>
 					<string>jcaron.case</string>
-					<string>Lcommaaccent.latnMAH</string>
-					<string>Ncommaaccent.latnMAH</string>
-					<string>Aogonek.latnNAV</string>
-					<string>Eogonek.latnNAV</string>
-					<string>Eng.latnNSM</string>
-					<string>lcommaaccent.latnMAH</string>
-					<string>ncommaaccent.latnMAH</string>
-					<string>aogonek.latnNAV</string>
-					<string>eogonek.latnNAV</string>
-					<string>dieresiscomb_gravecomb</string>
-					<string>dieresiscomb_acutecomb</string>
-					<string>dieresiscomb_caroncomb</string>
-					<string>dieresiscomb_macroncomb</string>
-					<string>dotaccentcomb_macroncomb</string>
-					<string>gravecomb_macroncomb</string>
-					<string>acutecomb_dotaccentcomb</string>
-					<string>acutecomb_macroncomb</string>
-					<string>caroncomb_dotaccentcomb</string>
-					<string>tildecomb_dieresiscomb</string>
-					<string>tildecomb_acutecomb</string>
-					<string>tildecomb_macroncomb</string>
-					<string>macroncomb_dieresiscomb</string>
-					<string>macroncomb_gravecomb</string>
-					<string>macroncomb_acutecomb</string>
+					<string>glottalstopreversed.case</string>
+					<string>Lcedilla.loclMAH</string>
+					<string>Ncedilla.loclMAH</string>
+					<string>Aogonek.loclNAV</string>
+					<string>Eogonek.loclNAV</string>
+					<string>Eng.loclNSM</string>
+					<string>lcedilla.loclMAH</string>
+					<string>ncedilla.loclMAH</string>
+					<string>aogonek.loclNAV</string>
+					<string>eogonek.loclNAV</string>
+					<string>dieresiscmb_gravecmb</string>
+					<string>dieresiscmb_acutecmb</string>
+					<string>dieresiscmb_caroncmb</string>
+					<string>dieresiscmb_macroncmb</string>
+					<string>dotaccentcmb_macroncmb</string>
+					<string>gravecmb_macroncmb</string>
+					<string>acutecmb_dotaccentcmb</string>
+					<string>acutecmb_macroncmb</string>
+					<string>caroncmb_dotaccentcmb</string>
+					<string>tildecmb_dieresiscmb</string>
+					<string>tildecmb_acutecmb</string>
+					<string>tildecmb_macroncmb</string>
+					<string>macroncmb_dieresiscmb</string>
+					<string>macroncmb_gravecmb</string>
+					<string>macroncmb_acutecmb</string>
 				</array>
 				<key>smartSetName</key>
 				<string>Latin L</string>
@@ -907,7 +931,6 @@
 					<string>eopenreversedhook</string>
 					<string>eopenreversedclosed</string>
 					<string>Gsmall</string>
-					<string>lmiddletilde</string>
 					<string>lretroflex</string>
 					<string>lezh</string>
 					<string>mlonglegturned</string>
@@ -964,8 +987,6 @@
 					<string>arrowheadupmod</string>
 					<string>arrowheaddownmod</string>
 					<string>macronmod</string>
-					<string>acutemod</string>
-					<string>gravemod</string>
 					<string>verticallinelowmod</string>
 					<string>macronlowmod</string>
 					<string>gravelowmod</string>
@@ -977,7 +998,6 @@
 					<string>tackupmod</string>
 					<string>tackdownmod</string>
 					<string>plussignmod</string>
-					<string>minussignmod</string>
 					<string>rhotichookmod</string>
 					<string>crossmod</string>
 					<string>glottalstopsupreversedmod</string>
@@ -989,7 +1009,6 @@
 					<string>yintonemod</string>
 					<string>yangtonemod</string>
 					<string>unaspiratedmod</string>
-					<string>apostrophedblmod</string>
 					<string>arrowheaddownlowmod</string>
 					<string>arrowheaduplowmod</string>
 					<string>arrowheadleftlowmod</string>
@@ -1025,7 +1044,6 @@
 					<string>dblarchinvertedbelowcmb</string>
 					<string>caronbelowcmb</string>
 					<string>lowlinedoublecmb</string>
-					<string>tildeoverlaycmb</string>
 					<string>overlaystrokelongcmb</string>
 					<string>solidusshortoverlaycmb</string>
 					<string>soliduslongoverlaycmb</string>
@@ -1058,7 +1076,6 @@
 					<string>arrowheadrightbelowcmb</string>
 					<string>arrowheadrightarrowheadupbelowcmb</string>
 					<string>halfrightringabovecmb</string>
-					<string>dotrightabovecmb</string>
 					<string>asteriskbelowcmb</string>
 					<string>doubleringbelowcmb</string>
 					<string>zigzagabovecmb</string>
@@ -1090,7 +1107,6 @@
 					<string>engmod</string>
 					<string>oopenmod</string>
 					<string>mturnedmod</string>
-					<string>vmod</string>
 					<string>betamod</string>
 					<string>gr:gammamod</string>
 					<string>gr:phimod</string>
@@ -1165,8 +1181,6 @@
 					<string>zretroflexhookmod</string>
 					<string>zcurlmod</string>
 					<string>ezhmod</string>
-					<string>macronacutecmb</string>
-					<string>gravemacroncmb</string>
 					<string>graveacutegravecmb</string>
 					<string>acutegraveacutecmb</string>
 					<string>lefttorightmark</string>
@@ -1179,21 +1193,15 @@
 					<string>overline</string>
 					<string>undertie</string>
 					<string>circledotted</string>
-					<string>Lmiddletilde</string>
 					<string>vrighthook</string>
 					<string>Sswashtail</string>
 					<string>Zswashtail</string>
-					<string>colonmod</string>
-					<string>shortequalsmod</string>
 					<string>lbeltretroflex</string>
 					<string>Ereversedopen</string>
 					<string>Kturned</string>
 					<string>Tturned</string>
 					<string>ligatureoemod</string>
 					<string>replacementchar</string>
-					<string>uniA71C</string>
-					<string>uniA71D</string>
-					<string>uniA71B</string>
 				</array>
 				<key>smartSetName</key>
 				<string>Latin XL</string>

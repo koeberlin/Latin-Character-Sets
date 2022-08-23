@@ -3,7 +3,7 @@
 <plist version="1.0">
 <!-- 
 	Source: https://github.com/koeberlin/Latin-Character-Sets
-	Version 0.9.0 
+	Version 0.9.1 
 -->
 <array>
 	<dict>
@@ -167,8 +167,7 @@
 			<string>Zcaron</string>
 			<string>Zdotaccent</string>
 			<string>Zdotbelow</string>
-			<string>J.latnNLD</string>
-			<string>L_periodcentered.latnCAT</string>
+			<string>L_periodcentered.loclCAT</string>
 			<string>a</string>
 			<string>aacute</string>
 			<string>abreve</string>
@@ -328,14 +327,14 @@
 			<string>zcaron</string>
 			<string>zdotaccent</string>
 			<string>zdotbelow</string>
-			<string>j.latnNLD</string>
-			<string>l_periodcentered.latnCAT</string>
+			<string>l_periodcentered.loclCAT</string>
 			<string>cedi</string>
 			<string>colonsign</string>
 			<string>guarani</string>
 			<string>liraTurkish</string>
 			<string>manat</string>
 			<string>naira</string>
+			<string>rupeeIndian</string>
 			<string>dieresiscomb</string>
 			<string>dotaccentcomb</string>
 			<string>gravecomb</string>
@@ -579,11 +578,14 @@
 			<string>Jstroke</string>
 			<string>Kacute</string>
 			<string>Kcaron</string>
+			<string>Kstroke</string>
 			<string>LJ</string>
 			<string>Lbar</string>
 			<string>Lbelt</string>
 			<string>Lcircumflexbelow</string>
 			<string>Ldot</string>
+			<string>Ldoublebar</string>
+			<string>Lmiddletilde</string>
 			<string>Lj</string>
 			<string>Macute</string>
 			<string>Mhook</string>
@@ -608,6 +610,7 @@
 			<string>Otildeacute</string>
 			<string>Otildedieresis</string>
 			<string>Otildemacron</string>
+			<string>OU</string>
 			<string>Pacute</string>
 			<string>Phook</string>
 			<string>Pstroke</string>
@@ -621,6 +624,7 @@
 			<string>Scarondotaccent</string>
 			<string>Sdotaccent</string>
 			<string>Sdotbelowdotaccent</string>
+			<string>Sobliquestroke</string>
 			<string>Tbar</string>
 			<string>Tcircumflexbelow</string>
 			<string>Tdiagonalstroke</string>
@@ -636,6 +640,7 @@
 			<string>Upsilonafrican</string>
 			<string>Utildeacute</string>
 			<string>Utildebelow</string>
+			<string>uniA7B8</string>
 			<string>Gammaafrican</string>
 			<string>Vdotbelow</string>
 			<string>Vhook</string>
@@ -653,11 +658,11 @@
 			<string>Omega</string>
 			<string>jcaron.case</string>
 			<string>glottalstopreversed.case</string>
-			<string>Lcommaaccent.latnMAH</string>
-			<string>Ncommaaccent.latnMAH</string>
-			<string>Aogonek.latnNAV</string>
-			<string>Eogonek.latnNAV</string>
-			<string>Eng.latnNSM</string>
+			<string>Lcommaaccent.loclMAH</string>
+			<string>Ncommaaccent.loclMAH</string>
+			<string>Aogonek.loclNAV</string>
+			<string>Eogonek.loclNAV</string>
+			<string>Eng.loclNSM</string>
 			<string>adblgrave</string>
 			<string>adieresismacron</string>
 			<string>adotaccent</string>
@@ -734,12 +739,15 @@
 			<string>jstroke</string>
 			<string>kacute</string>
 			<string>kcaron</string>
+			<string>kstroke</string>
 			<string>kgreenlandic</string>
 			<string>lambdastroke</string>
 			<string>lbar</string>
 			<string>lbelt</string>
 			<string>lcircumflexbelow</string>
 			<string>ldot</string>
+			<string>ldoublebar</string>
+			<string>lmiddletilde</string>
 			<string>lj</string>
 			<string>macute</string>
 			<string>mhook</string>
@@ -764,6 +772,7 @@
 			<string>otildeacute</string>
 			<string>otildedieresis</string>
 			<string>otildemacron</string>
+			<string>ou</string>
 			<string>pacute</string>
 			<string>phi-latin</string>
 			<string>phook</string>
@@ -781,6 +790,7 @@
 			<string>scarondotaccent</string>
 			<string>sdotaccent</string>
 			<string>sdotbelowdotaccent</string>
+			<string>sobliquestroke</string>
 			<string>longs</string>
 			<string>longsdotaccent</string>
 			<string>tbar</string>
@@ -800,6 +810,7 @@
 			<string>upsilon-latin</string>
 			<string>utildeacute</string>
 			<string>utildebelow</string>
+			<string>uniA7B9</string>
 			<string>vdotbelow</string>
 			<string>vhook</string>
 			<string>vtilde</string>
@@ -817,10 +828,10 @@
 			<string>theta</string>
 			<string>lambda</string>
 			<string>omega</string>
-			<string>lcommaaccent.latnMAH</string>
-			<string>ncommaaccent.latnMAH</string>
-			<string>aogonek.latnNAV</string>
-			<string>eogonek.latnNAV</string>
+			<string>lcommaaccent.loclMAH</string>
+			<string>ncommaaccent.loclMAH</string>
+			<string>aogonek.loclNAV</string>
+			<string>eogonek.loclNAV</string>
 			<string>clickalveolar</string>
 			<string>clickdental</string>
 			<string>clicklateral</string>
@@ -850,11 +861,17 @@
 			<string>sinferior</string>
 			<string>thetamod</string>
 			<string>tinferior</string>
+			<string>umod</string>
+			<string>vmod</string>
 			<string>zmod</string>
 			<string>glottalstopmod</string>
 			<string>glottalstopreversedmod</string>
 			<string>primemod</string>
 			<string>verticallinemod</string>
+			<string>colonmod</string>
+			<string>doubleapostrophemod</string>
+			<string>minusmod</string>
+			<string>shortequalmod</string>
 			<string>dieresiscomb_gravecomb</string>
 			<string>dieresiscomb_acutecomb</string>
 			<string>dieresiscomb_caroncomb</string>
@@ -870,6 +887,10 @@
 			<string>macroncomb_dieresiscomb</string>
 			<string>macroncomb_gravecomb</string>
 			<string>macroncomb_acutecomb</string>
+			<string>acutemacroncomb</string>
+			<string>macrongravecomb</string>
+			<string>gravemacroncomb</string>
+			<string>macronacutecomb</string>
 			<string>verticallineabovecomb</string>
 			<string>dblgravecomb</string>
 			<string>breveinvertedcomb</string>
@@ -886,8 +907,11 @@
 			<string>doublebrevebelowcomb</string>
 			<string>doublebrevecomb</string>
 			<string>breveinverteddoublecomb</string>
-			<string>acutemacroncomb</string>
-			<string>macrongravecomb</string>
+			<string>rbelowcomb</string>
+			<string>tildeoverlaycomb</string>
+			<string>dotaboverightcomb</string>
+			<string>secondtonechinese</string>
+			<string>fourthtonechinese</string>
 		</array>
 		<key>name</key>
 		<string>Latin L</string>
@@ -897,7 +921,6 @@
 		<array>
 			<string>EreversedOpen</string>
 			<string>Kturned</string>
-			<string>Lmiddletilde</string>
 			<string>Tturned</string>
 			<string>Bsmall</string>
 			<string>Dsmall</string>
@@ -955,7 +978,6 @@
 			<string>kturned</string>
 			<string>lezh</string>
 			<string>lhookretroflex</string>
-			<string>lmiddletilde</string>
 			<string>lpalatalhook</string>
 			<string>lretroflexhookandbelt</string>
 			<string>lsdigraph</string>
@@ -1043,7 +1065,6 @@
 			<string>ubarmod</string>
 			<string>upsilonmod</string>
 			<string>vhookmod</string>
-			<string>vmod</string>
 			<string>vturnedmod</string>
 			<string>zcurlmod</string>
 			<string>zretroflexhookmod</string>
@@ -1063,9 +1084,7 @@
 			<string>arrowheadupmod</string>
 			<string>beginhightonemod</string>
 			<string>beginlowtonemod</string>
-			<string>colonmod</string>
 			<string>crossaccentmod</string>
-			<string>doubleapostrophemod</string>
 			<string>downtackmod</string>
 			<string>endhightonemod</string>
 			<string>endlowtonemod</string>
@@ -1079,7 +1098,6 @@
 			<string>middledoubleacuteaccentmod</string>
 			<string>middledoublegraveaccentmod</string>
 			<string>middlegraveaccentmod</string>
-			<string>minusmod</string>
 			<string>openshelfmod</string>
 			<string>plusmod</string>
 			<string>raisedcolonmod</string>
@@ -1087,7 +1105,6 @@
 			<string>ringhalfleftcentered</string>
 			<string>ringhalfrightcentered</string>
 			<string>shelfmod</string>
-			<string>shortequalmod</string>
 			<string>tonebarextrahighmod</string>
 			<string>tonebarextralowmod</string>
 			<string>tonebarhighmod</string>
@@ -1132,7 +1149,6 @@
 			<string>dblarchinvertedbelowcomb</string>
 			<string>caronbelowcomb</string>
 			<string>dbllowlinecomb</string>
-			<string>tildeoverlaycomb</string>
 			<string>strokelongcomb</string>
 			<string>slashshortcomb</string>
 			<string>slashlongcomb</string>
@@ -1162,7 +1178,6 @@
 			<string>arrowheadrightbelowcomb</string>
 			<string>arrowheadrightheadupbelowcomb</string>
 			<string>righthalfringabovecomb</string>
-			<string>dotaboverightcomb</string>
 			<string>asteriskbelowcomb</string>
 			<string>doubleringbelowcomb</string>
 			<string>zigzagabovecomb</string>
@@ -1172,11 +1187,7 @@
 			<string>arrowdoublerightbelowcomb</string>
 			<string>acutegraveacutecomb</string>
 			<string>graveacutegravecomb</string>
-			<string>gravemacroncomb</string>
-			<string>macronacutecomb</string>
 			<string>firsttonechinese</string>
-			<string>secondtonechinese</string>
-			<string>fourthtonechinese</string>
 			<string>yindepartingtonemod</string>
 			<string>yangdepartingtone</string>
 			<string>acutelowmod</string>

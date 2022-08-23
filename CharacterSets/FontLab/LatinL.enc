@@ -1,7 +1,7 @@
 %%FONTLAB ENCODING: 66600003; Latin L
 %%GROUP: Koeberlin Latin New
 %% Source: https://github.com/koeberlin/Latin-Character-Sets
-%% Version 0.9.0
+%% Version 0.9.1
 uni0200
 uni01DE
 uni0226
@@ -68,11 +68,14 @@ uniA7B2
 uni0248
 uni1E30
 uni01E8
+uniA740
 uni01C7
 uni023D
 uniA7AD
 uni1E3C
 Ldot
+uni2C60
+uni2C62
 uni01C8
 uni1E3E
 uni2C6E
@@ -97,6 +100,7 @@ Oslashacute
 uni1E4C
 uni1E4E
 uni022C
+uni0222
 uni1E54
 uni01A4
 uni2C63
@@ -110,6 +114,7 @@ uniA78B
 uni1E66
 uni1E60
 uni1E68
+uniA7A8
 Tbar
 uni1E70
 uni023E
@@ -125,6 +130,7 @@ uni1E7A
 uni01B1
 uni1E78
 uni1E74
+uniA7B8
 uni0194
 uni1E7E
 uni01B2
@@ -142,11 +148,11 @@ Lambda
 uni03A9
 uni01F0.case
 uni0295.case
-uni013B.latnMAH
-uni0145.latnMAH
-Aogonek.latnNAV
-Eogonek.latnNAV
-Eng.latnNSM
+uni013B.loclMAH
+uni0145.loclMAH
+Aogonek.loclNAV
+Eogonek.loclNAV
+Eng.loclNSM
 uni0201
 uni01DF
 uni0227
@@ -223,12 +229,15 @@ uni0284
 uni0249
 uni1E31
 uni01E9
+uniA741
 kgreenlandic
 uni019B
 uni019A
 uni026C
 uni1E3D
 ldot
+uni2C61
+uni026B
 uni01C9
 uni1E3F
 uni0271
@@ -253,6 +262,7 @@ oslashacute
 uni1E4D
 uni1E4F
 uni022D
+uni0223
 uni1E55
 uni0278
 uni01A5
@@ -270,6 +280,7 @@ uniA78C
 uni1E67
 uni1E61
 uni1E69
+uniA7A9
 longs
 uni1E9B
 tbar
@@ -289,6 +300,7 @@ uni1E7B
 uni028A
 uni1E79
 uni1E75
+uniA7B9
 uni1E7F
 uni028B
 uni1E7D
@@ -306,10 +318,10 @@ epsilon
 theta
 lambda
 omega
-uni013C.latnMAH
-uni0146.latnMAH
-aogonek.latnNAV
-eogonek.latnNAV
+uni013C.loclMAH
+uni0146.loclMAH
+aogonek.loclNAV
+eogonek.loclNAV
 uni01C2
 uni01C0
 uni01C1
@@ -339,11 +351,17 @@ uni209A
 uni209B
 uni1DBF
 uni209C
+uni1D58
+uni1D5B
 uni1DBB
 uni02C0
 uni02C1
 uni02B9
 uni02C8
+uniA789
+uni02EE
+uni02D7
+uniA78A
 uni03080300
 uni03080301
 uni0308030C
@@ -359,6 +377,10 @@ uni03030304
 uni03040308
 uni03040300
 uni03040301
+uni1DC7
+uni1DC6
+uni1DC5
+uni1DC4
 uni030D
 uni030F
 uni0311
@@ -375,5 +397,8 @@ uni0332
 uni035C
 uni035D
 uni0361
-uni1DC7
-uni1DC6
+uni1DCA
+uni0334
+uni0358
+uni02CA
+uni02CB

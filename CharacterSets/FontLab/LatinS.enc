@@ -1,7 +1,7 @@
 %%FONTLAB ENCODING: 66600001; Latin S
 %%GROUP: Koeberlin Latin New
 %% Source: https://github.com/koeberlin/Latin-Character-Sets
-%% Version 0.9.0
+%% Version 0.9.1
 A
 Aacute
 Abreve
@@ -160,8 +160,7 @@ Zacute
 Zcaron
 Zdotaccent
 uni1E92
-J.latnNLD
-L_periodcentered.latnCAT
+L_periodcentered.loclCAT
 a
 aacute
 abreve
@@ -321,14 +320,14 @@ zacute
 zcaron
 zdotaccent
 uni1E93
-j.latnNLD
-l_periodcentered.latnCAT
+l_periodcentered.loclCAT
 uni20B5
 colonmonetary
 uni20B2
 uni20BA
 uni20BC
 uni20A6
+uni20B9
 uni0308
 uni0307
 gravecomb
