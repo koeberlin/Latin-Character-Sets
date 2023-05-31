@@ -245,6 +245,7 @@
 					<string>zdotaccent</string>
 					<string>Zcaron</string>
 					<string>zcaron</string>
+					<string>lt:Alphaturned</string>
 					<string>Bhook</string>
 					<string>Oopen</string>
 					<string>Dhook</string>
@@ -659,7 +660,6 @@
 					<string>ystroke</string>
 					<string>aturned</string>
 					<string>ipa:alpha</string>
-					<string>alphaturned</string>
 					<string>dtail</string>
 					<string>dotlessjstroke</string>
 					<string>ghook</string>
@@ -860,7 +860,6 @@
 					<string>lt:Alpha</string>
 					<string>Mhook</string>
 					<string>Aturned</string>
-					<string>lt:Alphaturned</string>
 					<string>Whook</string>
 					<string>whook</string>
 					<string>Heng</string>
@@ -924,6 +923,7 @@
 				<array>
 					<string>sswashtail</string>
 					<string>zswashtail</string>
+					<string>alphaturned</string>
 					<string>ccurl</string>
 					<string>ipa:ereversed</string>
 					<string>schwahook</string>

@@ -518,7 +518,6 @@
 			<string>Adotmacron</string>
 			<string>Ainvertedbreve</string>
 			<string>Alpha-latin</string>
-			<string>Alphaturned-latin</string>
 			<string>Aringacute</string>
 			<string>Aringbelow</string>
 			<string>Astroke</string>
@@ -669,7 +668,6 @@
 			<string>adotmacron</string>
 			<string>ainvertedbreve</string>
 			<string>alpha-latin</string>
-			<string>alphaturned-latin</string>
 			<string>arighthalfring</string>
 			<string>aringacute</string>
 			<string>aringbelow</string>
@@ -919,6 +917,7 @@
 	<dict>
 		<key>list</key>
 		<array>
+			<string>Alphaturned-latin</string>
 			<string>EreversedOpen</string>
 			<string>Kturned</string>
 			<string>Tturned</string>
@@ -935,6 +934,7 @@
 			<string>Rsmallinverted</string>
 			<string>Usmallstroke</string>
 			<string>Ysmall</string>
+			<string>alphaturned-latin</string>
 			<string>alpharetroflexhook</string>
 			<string>aretroflexhook</string>
 			<string>bidentalpercussive</string>
