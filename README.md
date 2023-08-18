@@ -1384,7 +1384,6 @@ Essential resource: Donny Trương’s [vietnamesetypography.com](https://vietna
 | Ǡ | 01E0 | uni01E0 |
 | Ȃ | 0202 | uni0202 |
 | Ɑ | 2C6D | uni2C6D |
-| Ɒ | 2C70 | uni2C70 |
 | Ǻ | 01FA | Aringacute |
 | Ḁ | 1E00 | uni1E00 |
 | Ⱥ | 023A | uni023A |
@@ -1535,7 +1534,6 @@ Essential resource: Donny Trương’s [vietnamesetypography.com](https://vietna
 | ǡ | 01E1 | uni01E1 |
 | ȃ | 0203 | uni0203 |
 | ɑ | 0251 | uni0251 |
-| ɒ | 0252 | uni0252 |
 | ẚ | 1E9A | uni1E9A |
 | ǻ | 01FB | aringacute |
 | ḁ | 1E01 | uni1E01 |
@@ -2315,6 +2313,7 @@ For full language support, a proper `mark` feature is required.
 
 | Char | Unicode | AGLFN name | 
 | --- | --- | --- |
+| Ɒ | 2C70 | uni2C70 |
 | Ɜ | A7AB | uniA7AB |
 | Ʞ | A7B0 | uniA7B0 |
 | Ʇ | A7B1 | uniA7B1 |
@@ -2331,6 +2330,7 @@ For full language support, a proper `mark` feature is required.
 | ʁ | 0281 | uni0281 |
 | ᵾ | 1D7E | uni1D7E |
 | ʏ | 028F | uni028F |
+| ɒ | 0252 | uni0252 |
 | ᶐ | 1D90 | uni1D90 |
 | ᶏ | 1D8F | uni1D8F |
 | ʭ | 02AD | uni02AD |
