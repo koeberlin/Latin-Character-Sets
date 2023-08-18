@@ -1647,7 +1647,6 @@ Essential resource: Donny Trương’s [vietnamesetypography.com](https://vietna
 | ȹ | 0239 | uni0239 |
 | ɤ | 0264 | uni0264 |
 | ȑ | 0211 | uni0211 |
-| ɾ | 027E | uni027E |
 | ɽ | 027D | uni027D |
 | ȓ | 0213 | uni0213 |
 | ɍ | 024D | uni024D |
@@ -2390,6 +2389,7 @@ For full language support, a proper `mark` feature is required.
 | ᵱ | 1D71 | uni1D71 |
 | ᶈ | 1D88 | uni1D88 |
 | ʠ | 02A0 | uni02A0 |
+| ɾ | 027E | uni027E |
 | ᵳ | 1D73 | uni1D73 |
 | ɿ | 027F | uni027F |
 | ɻ | 027B | uni027B |
