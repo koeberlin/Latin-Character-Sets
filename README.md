@@ -2623,10 +2623,11 @@ These character sets were thoroughly compiled, yet they come without any warrant
 
 Please contribute to Hyperglot, give feedback, and join the discussion to further improve them!
 
+# 
 
 # Resources
 ### Analysing character sets
-* [Bulletproof Font Tester](https://bulletproof.italic.space)
+* [Bulletproof Font Tester](https://www.adamjagosz.com/bulletproof/)
 * [CharSet Checker (Alphabet Type)](https://www.alphabet-type.com/tools/charset-checker/)
 * **[Hyperglot (Rosetta Type)](https://hyperglot.rosettatype.com/)**
 * [Latin Plus (Underware)](https://underware.nl/latin_plus/)
