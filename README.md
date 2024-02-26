@@ -2623,8 +2623,6 @@ These character sets were thoroughly compiled, yet they come without any warrant
 
 Please contribute to Hyperglot, give feedback, and join the discussion to further improve them!
 
-# 
-
 # Resources
 ### Analysing character sets
 * [Bulletproof Font Tester](https://www.adamjagosz.com/bulletproof/)
@@ -2636,6 +2634,29 @@ Please contribute to Hyperglot, give feedback, and join the discussion to furthe
 * [Diacritics Project](http://diacritics.typo.cz/)
 * [Manual of Diacritics](https://www.manualofdiacritics.eu/)
 * [vietnamesetypography.com](https://vietnamesetypography.com)
+
+### Fonts already embracing (at least) Latin S
+I’m more than happy that type designers have released fonts supporting the new character sets! Please help to keep this list growing:
+
+* [Competition](https://www.fontspring.com/fonts/sportsfonts/competition) by Christoph Koeberlin / Sportsfonts
+* [Eyja](https://counter-forms.com/typefaces/eyja) by Thy Hà / Counter Forms
+* [Fugit](https://counter-forms.com/typefaces/fugit) by Dennis Grauel / Counter Forms
+* [Ghost War](https://www.multioculartype.co/type/ghost-war) by Multiocular Type
+* [Herbik](https://counter-forms.com/typefaces/herbik) by Daniel Veneklaas / Counter Forms
+* [Loot Drop](https://www.multioculartype.co/type/loot-drop) by Multiocular Type
+* [MD IO](https://mass-driver.com/typefaces/md-io) by Rutherford Craze / Mass-Driver
+* [NaN Metrify Pan-African](https://www.nan.xyz/fonts/nan-metrify/) by NaN
+* [Neue DIN](https://fontwerk.com/en/fonts/neue-din) by H. Weber, A. Frohloff, O. Meier / Fontwerk
+* [Pangea & Pangea Text](https://fontwerk.com/en/fonts/pangea-superfamily) by Christoph Koeberlin / Fontwerk
+* [Pantasia](https://counter-forms.com/typefaces/pantasia) by Wei Huang / Counter Forms
+* [MD Polychrome](https://mass-driver.com/typefaces/md-polychrome) by Rutherford Craze / Mass-Driver
+* [MD Primer](https://mass-driver.com/typeface/md-primer) by Rutherford Craze & Luke Charsley / Mass-Driver
+* [Telas](https://counter-forms.com/typefaces/telas) by Seb McLauchlan / Counter Forms
+* [NaN Tresor](https://www.nan.xyz/fonts/nan-tresor/) by Christoph Koeberlin / NaN
+* [Winner Sans](https://www.myfonts.com/collections/winner-sans-font-sportsfonts) by Christoph Koeberlin & Sven Fuchs / Sportsfonts
+* [Winner Sans Rounded](https://www.myfonts.com/collections/winner-sans-rounded-font-sportsfonts) by Christoph Koeberlin / Sportsfonts
+* [Winner Sans Soft](https://www.myfonts.com/collections/winner-sans-soft-font-sportsfonts) by Christoph Koeberlin / Sportsfonts
+
 
 ### Reference fonts
 * [Brill Typeface](https://brill.com/page/BrillFont/brill-typeface)
