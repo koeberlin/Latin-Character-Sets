@@ -2651,6 +2651,7 @@ I’m more than happy that type designers have released fonts supporting the new
 * [Pantasia](https://counter-forms.com/typefaces/pantasia) by Wei Huang / Counter Forms
 * [MD Polychrome](https://mass-driver.com/typefaces/md-polychrome) by Rutherford Craze / Mass-Driver
 * [MD Primer](https://mass-driver.com/typeface/md-primer) by Rutherford Craze & Luke Charsley / Mass-Driver
+* [Sudo](https://www.kutilek.de/sudo-font/) by Jens Kutílek 🆓
 * [Telas](https://counter-forms.com/typefaces/telas) by Seb McLauchlan / Counter Forms
 * [NaN Tresor](https://www.nan.xyz/fonts/nan-tresor/) by Christoph Koeberlin / NaN
 * [Winner Sans](https://www.myfonts.com/collections/winner-sans-font-sportsfonts) by Christoph Koeberlin & Sven Fuchs / Sportsfonts
