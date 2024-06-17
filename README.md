@@ -2644,6 +2644,7 @@ I’m more than happy that type designers have released fonts supporting the new
 * [Ghost War](https://www.multioculartype.co/type/ghost-war) by Multiocular Type
 * [Herbik](https://counter-forms.com/typefaces/herbik) by Daniel Veneklaas / Counter Forms
 * [Loot Drop](https://www.multioculartype.co/type/loot-drop) by Multiocular Type
+* [MD Lórien](https://mass-driver.com/typefaces/md-lorien/) by Rutherford Craze / Mass-Driver
 * [MD IO](https://mass-driver.com/typefaces/md-io) by Rutherford Craze / Mass-Driver
 * [NaN Metrify Pan-African](https://www.nan.xyz/fonts/nan-metrify/) by NaN
 * [Neue DIN](https://fontwerk.com/en/fonts/neue-din) by H. Weber, A. Frohloff, O. Meier / Fontwerk
