@@ -1,21 +1,19 @@
 %%FONTLAB ENCODING: 66600004; Latin XL
-%%GROUP: Koeberlin Latin New
+%%GROUP: Koeberlin Latin
 %% Source: https://github.com/koeberlin/Latin-Character-Sets
-%% Version 0.9.1
-uni2C70
+%% Version 1.0.0
 uniA7AB
 uniA7B0
+uni2C7E
 uniA7B1
+uni2C7F
 uni0299
 uni1D05
-uni0262
 uni029B
 uni029C
-uni1D7B
 uni029F
 uni0274
 uni0276
-uni0280
 uni0281
 uni1D7E
 uni028F
@@ -35,7 +33,6 @@ uni02A3
 uni02A5
 uni029A
 uni1D93
-uni0252
 uni025C
 uni025E
 uni025D
@@ -90,6 +87,7 @@ uni1D95
 uni0282
 uni1D74
 uni1D8A
+uni023F
 uni02A8
 uni1D75
 uni02A6
@@ -103,6 +101,7 @@ uni0291
 uni1D76
 uni1D8E
 uni0290
+uni0240
 uni02B6
 uni1D45
 uni1D9B
@@ -121,15 +120,13 @@ uni1D5D
 uni1D9D
 uni1D61
 uni1D9C
-uni1D4B
-uni1D9F
 uni1D51
+uni1D9F
 uni1DB4
 uni1D9E
 uni1DBE
 uni1DA0
 uni1DA3
-uni1DA4
 uni1DA8
 uni1DA1
 uni1D4F
@@ -140,26 +137,23 @@ uni1DAD
 uni1D50
 uni1DAE
 uni1DAF
-uni1D53
+uniA7F9
 uniA71C
 uniA71D
 uniA71B
 uni1D4A
 uni1DA2
 uni1DB3
-uni1DB6
 uni1DB7
 uni1DB9
 uni1DBA
 uni1DBD
 uni1DBC
-uniA7F9
 uni200E
 uni200F
 uni2016
 exclamdbl
 uni203E
-uni203F
 underscoredbl
 quotereversed
 uni201F
@@ -169,7 +163,6 @@ uni02C3
 uni02C4
 uni02F9
 uni02FB
-uni02DF
 uni02D5
 uni02FA
 uni02FC
@@ -186,7 +179,6 @@ uni02F4
 uni02FE
 uni02D6
 uni02F8
-uni02DE
 uni02D3
 uni02D2
 uni02FD
@@ -197,9 +189,11 @@ uni02E8
 uni02E7
 uni02ED
 uni02D4
+uni02DF
+uni02DE
 uni02E4
-uni25CC
 uniFFFD
+uni25CC
 uni0363
 uni0368
 uni0369
@@ -235,8 +229,6 @@ uni032B
 uni032C
 uni0333
 uni0336
-uni0337
-uni0338
 uni0339
 uni033A
 uni033B
@@ -267,23 +259,14 @@ uni0359
 uni035A
 uni035B
 uni035E
-uni035F
 uni0360
 uni0362
 uni1DC9
 uni1DC8
-uni02C9
 uni02EA
 uni02EB
 uni02CF
-uni02D1
-uni02D0
 uni02BD
-uni02BA
 uni02CE
 uni02CD
-uni02CC
-uni2C7E
-uni2C7F
-uni023F
-uni0240
+

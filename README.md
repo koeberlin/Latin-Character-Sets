@@ -1,4 +1,4 @@
-# Latin Character Sets (Beta)
+# Latin Character Sets
 
 > Did you know that almost none of the Latin based fonts support the languages of the seventh most populous country in the world?[^1]
 
@@ -7,7 +7,13 @@ You can read more about the thoughts behind it on my blog: [More Latin!](https:/
 
 Please note that only characters for language support are included; no figures, punctuation etc. Additional currency symbols are however contained to make the font fully usable in countries whose languages they support.[^2]
 
-The character sets build on each other. For Latin M e.g. Latin S also needs to be supported.
+The character sets build on each other. For Latin M e.g., Latin S also needs to be supported.
+
+## tl;dr
+* Latin S: A new global Latin minimum character set
+* Latin M: Vietnamese, plus support for [DIN 91379](https://en.wikipedia.org/wiki/DIN_91379)
+* Latin L: Pan-African Latin, plus support for indigenious languages of the Americas
+* Latin XL: [IPA](https://en.wikipedia.org/wiki/International_Phonetic_Alphabet) and [APA](https://en.wikipedia.org/wiki/Americanist_phonetic_notation) support
 
 ## Latin S
 There’s nothing extended about what’s most often referred to as *Latin Extended*.
@@ -25,7 +31,6 @@ Btw, it includes the [Pan-Nigerian alphabet](https://en.wikipedia.org/wiki/Pan-N
 
 <details><summary>Characters in Latin S</summary>
 
-| Char | Unicode | AGLFN name | 
 | Char | Unicode | AGLFN name | 
 | --- | --- | --- |
 | A | 0041 | A |
@@ -813,9 +818,9 @@ For a wider language support (including the Dutch /j with acute), a proper `mark
 
 
 ## Latin M
-*Latin M* is mainly about stacking accents for Vietnamese (76M speakers). And while you’re at it, you might want to add support for Pinyin and the romanization of Semitic languages and Sanskrit.
+*Latin M* adds support for Vietnamese (76M speakers), Pinyin, and [DIN 91379](https://en.wikipedia.org/wiki/DIN_91379).
 
-Requires 144 additional glyphs (≈90% composites of existing glyphs)
+Requires 237 additional glyphs.
 
 <details><summary>Characters in Latin M</summary>
 
@@ -831,31 +836,59 @@ Requires 144 additional glyphs (≈90% composites of existing glyphs)
 | Ầ | 1EA6 | uni1EA6 |
 | Ẩ | 1EA8 | uni1EA8 |
 | Ẫ | 1EAA | uni1EAA |
+| Ǟ | 01DE | uni01DE |
+| Ȧ | 0226 | uni0226 |
 | Ả | 1EA2 | uni1EA2 |
+| Ǻ | 01FA | Aringacute |
+| Ǽ | 01FC | AEacute |
 | Ǣ | 01E2 | uni01E2 |
+| Ḃ | 1E02 | uni1E02 |
+| Ḇ | 1E06 | uni1E06 |
+| Ƈ | 0187 | uni0187 |
+| Ḑ | 1E10 | uni1E10 |
+| Ḋ | 1E0A | uni1E0A |
 | Ḏ | 1E0E | uni1E0E |
+| Ȩ | 0228 | uni0228 |
+| Ḝ | 1E1C | uni1E1C |
 | Ế | 1EBE | uni1EBE |
 | Ệ | 1EC6 | uni1EC6 |
 | Ề | 1EC0 | uni1EC0 |
 | Ể | 1EC2 | uni1EC2 |
 | Ễ | 1EC4 | uni1EC4 |
 | Ẻ | 1EBA | uni1EBA |
+| Ḗ | 1E16 | uni1E16 |
+| Ʒ | 01B7 | uni01B7 |
+| Ǯ | 01EE | uni01EE |
+| Ḟ | 1E1E | uni1E1E |
+| Ǵ | 01F4 | uni01F4 |
+| Ǥ | 01E4 | uni01E4 |
 | Ḫ | 1E2A | uni1E2A |
+| Ȟ | 021E | uni021E |
 | Ḩ | 1E28 | uni1E28 |
+| Ḣ | 1E22 | uni1E22 |
 | Ỉ | 1EC8 | uni1EC8 |
+| Ḯ | 1E2E | uni1E2E |
+| Ĳ | 0132 | IJ |
+| Ḱ | 1E30 | uni1E30 |
+| Ǩ | 01E8 | uni01E8 |
 | Ḳ | 1E32 | uni1E32 |
 | Ḵ | 1E34 | uni1E34 |
+| Ŀ | 013F | Ldot |
 | Ḷ | 1E36 | uni1E36 |
 | Ḹ | 1E38 | uni1E38 |
 | Ḻ | 1E3A | uni1E3A |
 | Ṁ | 1E40 | uni1E40 |
 | Ṃ | 1E42 | uni1E42 |
+| Ǹ | 01F8 | uni01F8 |
 | Ṉ | 1E48 | uni1E48 |
 | Ố | 1ED0 | uni1ED0 |
 | Ộ | 1ED8 | uni1ED8 |
 | Ồ | 1ED2 | uni1ED2 |
 | Ổ | 1ED4 | uni1ED4 |
 | Ỗ | 1ED6 | uni1ED6 |
+| Ȫ | 022A | uni022A |
+| Ȯ | 022E | uni022E |
+| Ȱ | 0230 | uni0230 |
 | Ỏ | 1ECE | uni1ECE |
 | Ơ | 01A0 | Ohorn |
 | Ớ | 1EDA | uni1EDA |
@@ -863,10 +896,20 @@ Requires 144 additional glyphs (≈90% composites of existing glyphs)
 | Ờ | 1EDC | uni1EDC |
 | Ở | 1EDE | uni1EDE |
 | Ỡ | 1EE0 | uni1EE0 |
+| Ṓ | 1E52 | uni1E52 |
+| Ǫ | 01EA | uni01EA |
+| Ǭ | 01EC | uni01EC |
+| Ǿ | 01FE | Oslashacute |
+| Ȭ | 022C | uni022C |
+| Ṕ | 1E54 | uni1E54 |
 | Ṙ | 1E58 | uni1E58 |
 | Ṛ | 1E5A | uni1E5A |
 | Ṝ | 1E5C | uni1E5C |
+| Ȓ | 0212 | uni0212 |
 | Ṟ | 1E5E | uni1E5E |
+| Ṡ | 1E60 | uni1E60 |
+| Ŧ | 0166 | Tbar |
+| Ṫ | 1E6A | uni1E6A |
 | Ṭ | 1E6C | uni1E6C |
 | Ṯ | 1E6E | uni1E6E |
 | Ǘ | 01D7 | uni01D7 |
@@ -880,10 +923,12 @@ Requires 144 additional glyphs (≈90% composites of existing glyphs)
 | Ừ | 1EEA | uni1EEA |
 | Ử | 1EEC | uni1EEC |
 | Ữ | 1EEE | uni1EEE |
+| Ẇ | 1E86 | uni1E86 |
 | Ẉ | 1E88 | uni1E88 |
 | Ẏ | 1E8E | uni1E8E |
 | Ỵ | 1EF4 | uni1EF4 |
 | Ỷ | 1EF6 | uni1EF6 |
+| Ẑ | 1E90 | uni1E90 |
 | Ẕ | 1E94 | uni1E94 |
 | ắ | 1EAF | uni1EAF |
 | ặ | 1EB7 | uni1EB7 |
@@ -895,32 +940,63 @@ Requires 144 additional glyphs (≈90% composites of existing glyphs)
 | ầ | 1EA7 | uni1EA7 |
 | ẩ | 1EA9 | uni1EA9 |
 | ẫ | 1EAB | uni1EAB |
+| ǟ | 01DF | uni01DF |
+| ȧ | 0227 | uni0227 |
 | ả | 1EA3 | uni1EA3 |
+| ǻ | 01FB | aringacute |
+| ǽ | 01FD | aeacute |
 | ǣ | 01E3 | uni01E3 |
+| ḃ | 1E03 | uni1E03 |
+| ḇ | 1E07 | uni1E07 |
+| ƈ | 0188 | uni0188 |
+| ḑ | 1E11 | uni1E11 |
+| ḋ | 1E0B | uni1E0B |
 | ḏ | 1E0F | uni1E0F |
+| ȩ | 0229 | uni0229 |
+| ḝ | 1E1D | uni1E1D |
 | ế | 1EBF | uni1EBF |
 | ệ | 1EC7 | uni1EC7 |
 | ề | 1EC1 | uni1EC1 |
 | ể | 1EC3 | uni1EC3 |
 | ễ | 1EC5 | uni1EC5 |
 | ẻ | 1EBB | uni1EBB |
+| ḗ | 1E17 | uni1E17 |
+| ʒ | 0292 | uni0292 |
+| ǯ | 01EF | uni01EF |
+| ḟ | 1E1F | uni1E1F |
+| ǵ | 01F5 | uni01F5 |
+| ǥ | 01E5 | uni01E5 |
 | ḫ | 1E2B | uni1E2B |
+| ȟ | 021F | uni021F |
 | ḩ | 1E29 | uni1E29 |
+| ḣ | 1E23 | uni1E23 |
 | ẖ | 1E96 | uni1E96 |
+| ḯ | 1E2F | uni1E2F |
 | ỉ | 1EC9 | uni1EC9 |
+| ĳ | 0133 | ij |
+| ǰ | 01F0 | uni01F0 |
+| ḱ | 1E31 | uni1E31 |
+| ǩ | 01E9 | uni01E9 |
 | ḳ | 1E33 | uni1E33 |
+| ĸ | 0138 | kgreenlandic |
 | ḵ | 1E35 | uni1E35 |
+| ŀ | 0140 | ldot |
 | ḷ | 1E37 | uni1E37 |
 | ḹ | 1E39 | uni1E39 |
 | ḻ | 1E3B | uni1E3B |
 | ṁ | 1E41 | uni1E41 |
 | ṃ | 1E43 | uni1E43 |
+| ŉ | 0149 | napostrophe |
+| ǹ | 01F9 | uni01F9 |
 | ṉ | 1E49 | uni1E49 |
 | ố | 1ED1 | uni1ED1 |
 | ộ | 1ED9 | uni1ED9 |
 | ồ | 1ED3 | uni1ED3 |
 | ổ | 1ED5 | uni1ED5 |
 | ỗ | 1ED7 | uni1ED7 |
+| ȫ | 022B | uni022B |
+| ȯ | 022F | uni022F |
+| ȱ | 0231 | uni0231 |
 | ỏ | 1ECF | uni1ECF |
 | ơ | 01A1 | ohorn |
 | ớ | 1EDB | uni1EDB |
@@ -928,10 +1004,21 @@ Requires 144 additional glyphs (≈90% composites of existing glyphs)
 | ờ | 1EDD | uni1EDD |
 | ở | 1EDF | uni1EDF |
 | ỡ | 1EE1 | uni1EE1 |
+| ṓ | 1E53 | uni1E53 |
+| ǫ | 01EB | uni01EB |
+| ǭ | 01ED | uni01ED |
+| ǿ | 01FF | oslashacute |
+| ȭ | 022D | uni022D |
+| ṕ | 1E55 | uni1E55 |
 | ṙ | 1E59 | uni1E59 |
 | ṛ | 1E5B | uni1E5B |
 | ṝ | 1E5D | uni1E5D |
+| ȓ | 0213 | uni0213 |
 | ṟ | 1E5F | uni1E5F |
+| ṡ | 1E61 | uni1E61 |
+| ŧ | 0167 | tbar |
+| ẗ | 1E97 | uni1E97 |
+| ṫ | 1E6B | uni1E6B |
 | ṭ | 1E6D | uni1E6D |
 | ṯ | 1E6F | uni1E6F |
 | ǘ | 01D8 | uni01D8 |
@@ -945,12 +1032,23 @@ Requires 144 additional glyphs (≈90% composites of existing glyphs)
 | ừ | 1EEB | uni1EEB |
 | ử | 1EED | uni1EED |
 | ữ | 1EEF | uni1EEF |
+| ẇ | 1E87 | uni1E87 |
 | ẉ | 1E89 | uni1E89 |
 | ẏ | 1E8F | uni1E8F |
 | ỵ | 1EF5 | uni1EF5 |
 | ỷ | 1EF7 | uni1EF7 |
+| ẑ | 1E91 | uni1E91 |
 | ẕ | 1E95 | uni1E95 |
 | ₫ | 20AB | dong |
+| ̉ | 0309 | hookabovecomb |
+| ̍ | 030D | uni030D |
+| ̐ | 0310 | uni0310 |
+| ̕ | 0315 | uni0315 |
+| ̛ | 031B | uni031B |
+| ̥ | 0325 | uni0325 |
+| ̮ | 032E | uni032E |
+| ̱ | 0331 | uni0331 |
+| ͟ | 035F | uni035F |
 |  | None | uni03060301 |
 |  | None | uni03060300 |
 |  | None | uni03060309 |
@@ -959,12 +1057,13 @@ Requires 144 additional glyphs (≈90% composites of existing glyphs)
 |  | None | uni03020300 |
 |  | None | uni03020309 |
 |  | None | uni03020303 |
-| ̉ | 0309 | hookabovecomb |
-| ̛ | 031B | uni031B |
-| ̮ | 032E | uni032E |
-| ̱ | 0331 | uni0331 |
+| ʺ | 02BA | uni02BA |
+| ʹ | 02B9 | uni02B9 |
 | ʿ | 02BF | uni02BF |
 | ʾ | 02BE | uni02BE |
+| ˌ | 02CC | uni02CC |
+| ˈ | 02C8 | uni02C8 |
+
 
 
 </details>
@@ -1369,131 +1468,113 @@ Source: Hyperglot (Version 0.3.6)
 </details>
 
 ### Notes
+
+#### Glyphs/Design
+
+##### Vietnamese
 Essential resource: Donny Trương’s [vietnamesetypography.com](https://vietnamesetypography.com)
 
+#### OpenType features
+
+##### mark 
+For full language support, a proper `mark` feature is required. 
+At the DIN 91379 repository there’s a text file for checking characters and sequences: [latin_letters_1.3.txt](https://github.com/String-Latin/DIN-91379-Characters-and-Sequences/blob/main/latin_letters_1.3.txt)
+
 ## Latin L
-*Latin L* completes the support of all Latin-based languages on [Hyperglot](https://hyperglot.rosettatype.com/). I also added some legacy unicode characters like ŉ, ĸ and ǆ.
+*Latin L* completes the support of all Latin-based languages on [Hyperglot](https://hyperglot.rosettatype.com/) and supports more than Google’s [Pan-African](https://design.google/library/meet-questrial-African-languages-font) and Sharp Type’s [OmniLatin](https://www.sharptype.co/case-studies/omni-latin-research) character sets. 
 
 <details><summary>Characters in Latin L</summary>
 
 | Char | Unicode | AGLFN name | 
 | --- | --- | --- |
 | Ȁ | 0200 | uni0200 |
-| Ǟ | 01DE | uni01DE |
-| Ȧ | 0226 | uni0226 |
 | Ǡ | 01E0 | uni01E0 |
 | Ȃ | 0202 | uni0202 |
 | Ɑ | 2C6D | uni2C6D |
-| Ǻ | 01FA | Aringacute |
+| Ɒ | 2C70 | uni2C70 |
+|  | None | Aogonek.loclNAV |
 | Ḁ | 1E00 | uni1E00 |
 | Ⱥ | 023A | uni023A |
 | Ɐ | 2C6F | uni2C6F |
-| Ǽ | 01FC | AEacute |
-| Ḃ | 1E02 | uni1E02 |
 | Ꞵ | A7B4 | uniA7B4 |
-| Ḇ | 1E06 | uni1E06 |
 | Ƀ | 0243 | uni0243 |
+| Ƃ | 0182 | uni0182 |
 | Ḉ | 1E08 | uni1E08 |
 | Ꭓ | A7B3 | uniA7B3 |
-| Ƈ | 0187 | uni0187 |
 | Ȼ | 023B | uni023B |
 | Ǳ | 01F1 | uni01F1 |
 | Ǆ | 01C4 | uni01C4 |
 | Ɖ | 0189 | uni0189 |
-| Ḑ | 1E10 | uni1E10 |
 | Ḓ | 1E12 | uni1E12 |
-| Ḋ | 1E0A | uni1E0A |
+| Ꟈ | A7C7 | uniA7C7 |
 | ǲ | 01F2 | uni01F2 |
 | ǅ | 01C5 | uni01C5 |
-| Ȩ | 0228 | uni0228 |
-| Ḝ | 1E1C | uni1E1C |
 | Ḙ | 1E18 | uni1E18 |
 | Ȅ | 0204 | uni0204 |
 | Ȇ | 0206 | uni0206 |
-| Ḗ | 1E16 | uni1E16 |
 | Ḕ | 1E14 | uni1E14 |
+|  | None | Eogonek.loclNAV |
 | Ʃ | 01A9 | uni01A9 |
 | Ɇ | 0246 | uni0246 |
 | Ḛ | 1E1A | uni1E1A |
-| Ʒ | 01B7 | uni01B7 |
-| Ǯ | 01EE | uni01EE |
 | Ƹ | 01B8 | uni01B8 |
 | Ꞙ | A798 | uniA798 |
-| Ḟ | 1E1E | uni1E1E |
 | Ƒ | 0191 | uni0191 |
-| Ǵ | 01F4 | uni01F4 |
 | Ɠ | 0193 | uni0193 |
 | Ɂ | 0241 | uni0241 |
 | Ɡ | A7AC | uniA7AC |
-| Ǥ | 01E4 | uni01E4 |
 | Ȝ | 021C | uni021C |
-| Ȟ | 021E | uni021E |
-| Ḣ | 1E22 | uni1E22 |
 | Ꜧ | A726 | uniA726 |
 | Ɦ | A7AA | uniA7AA |
 | Ɥ | A78D | uniA78D |
-| Ĳ | 0132 | IJ |
 | Ȉ | 0208 | uni0208 |
-| Ḯ | 1E2E | uni1E2E |
 | Ȋ | 020A | uni020A |
 | Ɩ | 0196 | uni0196 |
 | Ḭ | 1E2C | uni1E2C |
-| Ɪ | A7AE | uniA7AE |
 | Ʝ | A7B2 | uniA7B2 |
 | Ɉ | 0248 | uni0248 |
-| Ḱ | 1E30 | uni1E30 |
-| Ǩ | 01E8 | uni01E8 |
 | Ꝁ | A740 | uniA740 |
 | Ǉ | 01C7 | uni01C7 |
+| Ꟛ | A7DA | uniA7DA |
+| Ƛ | A7DC | uniA7DC |
 | Ƚ | 023D | uni023D |
 | Ɬ | A7AD | uniA7AD |
 | Ḽ | 1E3C | uni1E3C |
-| Ŀ | 013F | Ldot |
+|  | None | uni013B.loclMAH |
 | Ⱡ | 2C60 | uni2C60 |
-| Ɫ | 2C62 | uni2C62 |
 | ǈ | 01C8 | uni01C8 |
+| Ɫ | 2C62 | uni2C62 |
 | Ḿ | 1E3E | uni1E3E |
 | Ɱ | 2C6E | uni2C6E |
 | Ɯ | 019C | uni019C |
 | Ǌ | 01CA | uni01CA |
 | Ṋ | 1E4A | uni1E4A |
-| Ǹ | 01F8 | uni01F8 |
+|  | None | uni0145.loclMAH |
 | ǋ | 01CB | uni01CB |
 | Ƞ | 0220 | uni0220 |
+|  | None | Eng.loclNSM |
+| Ȣ | 0222 | uni0222 |
 | Ɵ | 019F | uni019F |
 | Ȍ | 020C | uni020C |
-| Ȫ | 022A | uni022A |
-| Ȯ | 022E | uni022E |
-| Ȱ | 0230 | uni0230 |
 | Ȏ | 020E | uni020E |
-| Ṓ | 1E52 | uni1E52 |
 | Ṑ | 1E50 | uni1E50 |
 | Ꞷ | A7B6 | uniA7B6 |
-| Ǫ | 01EA | uni01EA |
-| Ǭ | 01EC | uni01EC |
-| Ǿ | 01FE | Oslashacute |
 | Ṍ | 1E4C | uni1E4C |
 | Ṏ | 1E4E | uni1E4E |
-| Ȭ | 022C | uni022C |
-| Ȣ | 0222 | uni0222 |
-| Ṕ | 1E54 | uni1E54 |
 | Ƥ | 01A4 | uni01A4 |
 | Ᵽ | 2C63 | uni2C63 |
 | Ɋ | 024A | uni024A |
+| Ɤ | A7CB | uniA7CB |
 | Ȑ | 0210 | uni0210 |
-| Ȓ | 0212 | uni0212 |
 | Ɍ | 024C | uni024C |
 | Ɽ | 2C64 | uni2C64 |
 | Ṥ | 1E64 | uni1E64 |
-| Ꞌ | A78B | uniA78B |
 | Ṧ | 1E66 | uni1E66 |
-| Ṡ | 1E60 | uni1E60 |
 | Ṩ | 1E68 | uni1E68 |
 | Ꞩ | A7A8 | uniA7A8 |
-| Ŧ | 0166 | Tbar |
+| Ꟍ | A7CC | uniA7CC |
 | Ṱ | 1E70 | uni1E70 |
 | Ⱦ | 023E | uni023E |
-| Ṫ | 1E6A | uni1E6A |
 | Ƭ | 01AC | uni01AC |
 | Ʈ | 01AE | uni01AE |
 | Ʉ | 0244 | uni0244 |
@@ -1505,139 +1586,101 @@ Essential resource: Donny Trương’s [vietnamesetypography.com](https://vietna
 | Ʊ | 01B1 | uni01B1 |
 | Ṹ | 1E78 | uni1E78 |
 | Ṵ | 1E74 | uni1E74 |
-| Ꞹ | A7B8 | uniA7B8 |
 | Ɣ | 0194 | uni0194 |
 | Ṿ | 1E7E | uni1E7E |
 | Ʋ | 01B2 | uni01B2 |
 | Ṽ | 1E7C | uni1E7C |
-| Ẇ | 1E86 | uni1E86 |
 | Ⱳ | 2C72 | uni2C72 |
 | Ẋ | 1E8A | uni1E8A |
+| Ʀ | 01A6 | uni01A6 |
 | Ɏ | 024E | uni024E |
-| Ẑ | 1E90 | uni1E90 |
 | Ƶ | 01B5 | uni01B5 |
-| Β | 0392 | Beta |
-| Ε | 0395 | Epsilon |
-| Θ | 0398 | Theta |
-| Λ | 039B | Lambda |
-| Ω | 03A9 | uni03A9 |
-|  | None | uni01F0.case |
-|  | None | uni0295.case |
-|  | None | uni013B.loclMAH |
-|  | None | uni0145.loclMAH |
-|  | None | Aogonek.loclNAV |
-|  | None | Eogonek.loclNAV |
-|  | None | Eng.loclNSM |
+| Ꞌ | A78B | uniA78B |
+| Ꞹ | A7B8 | uniA7B8 |
+| Ɪ | A7AE | uniA7AE |
+| ɢ | 0262 | uni0262 |
+| ɪ | 026A | uni026A |
+| ᵻ | 1D7B | uni1D7B |
+| ʀ | 0280 | uni0280 |
 | ȁ | 0201 | uni0201 |
-| ǟ | 01DF | uni01DF |
-| ȧ | 0227 | uni0227 |
 | ǡ | 01E1 | uni01E1 |
 | ȃ | 0203 | uni0203 |
 | ɑ | 0251 | uni0251 |
+| ɒ | 0252 | uni0252 |
+|  | None | aogonek.loclNAV |
 | ẚ | 1E9A | uni1E9A |
-| ǻ | 01FB | aringacute |
 | ḁ | 1E01 | uni1E01 |
 | ⱥ | 2C65 | uni2C65 |
 | ɐ | 0250 | uni0250 |
-| ǽ | 01FD | aeacute |
-| ḃ | 1E03 | uni1E03 |
 | ꞵ | A7B5 | uniA7B5 |
 | ʘ | 0298 | uni0298 |
-| ḇ | 1E07 | uni1E07 |
 | ƀ | 0180 | uni0180 |
+| ƃ | 0183 | uni0183 |
 | ḉ | 1E09 | uni1E09 |
 | ꭓ | AB53 | uniAB53 |
-| ƈ | 0188 | uni0188 |
-| ↄ | 2184 | uni2184 |
 | ȼ | 023C | uni023C |
 | ȸ | 0238 | uni0238 |
-| ḑ | 1E11 | uni1E11 |
 | ḓ | 1E13 | uni1E13 |
-| ḋ | 1E0B | uni1E0B |
+| ꟈ | A7C8 | uniA7C8 |
 | ɖ | 0256 | uni0256 |
 | ǳ | 01F3 | uni01F3 |
 | ǆ | 01C6 | uni01C6 |
-| ȩ | 0229 | uni0229 |
-| ḝ | 1E1D | uni1E1D |
 | ḙ | 1E19 | uni1E19 |
 | ȅ | 0205 | uni0205 |
 | ȇ | 0207 | uni0207 |
-| ḗ | 1E17 | uni1E17 |
 | ḕ | 1E15 | uni1E15 |
+|  | None | eogonek.loclNAV |
 | ʃ | 0283 | uni0283 |
 | ƪ | 01AA | uni01AA |
 | ɇ | 0247 | uni0247 |
 | ḛ | 1E1B | uni1E1B |
-| ʒ | 0292 | uni0292 |
-| ǯ | 01EF | uni01EF |
 | ƹ | 01B9 | uni01B9 |
 | ꞙ | A799 | uniA799 |
-| ḟ | 1E1F | uni1E1F |
-| ƒ | 0192 | florin |
-| ǵ | 01F5 | uni01F5 |
 | ɣ | 0263 | uni0263 |
 | ɠ | 0260 | uni0260 |
 | ʔ | 0294 | uni0294 |
 | ʕ | 0295 | uni0295 |
 | ɂ | 0242 | uni0242 |
 | ɡ | 0261 | uni0261 |
-| ǥ | 01E5 | uni01E5 |
 | ȝ | 021D | uni021D |
-| ȟ | 021F | uni021F |
-| ḣ | 1E23 | uni1E23 |
 | ꜧ | A727 | uniA727 |
 | ɧ | 0267 | uni0267 |
 | ɦ | 0266 | uni0266 |
 | ɥ | 0265 | uni0265 |
 | ȉ | 0209 | uni0209 |
-| ḯ | 1E2F | uni1E2F |
 | ȋ | 020B | uni020B |
-| ĳ | 0133 | ij |
 | ɩ | 0269 | uni0269 |
 | ḭ | 1E2D | uni1E2D |
-| ɪ | 026A | uni026A |
-| ǰ | 01F0 | uni01F0 |
 | ʝ | 029D | uni029D |
 | ɟ | 025F | uni025F |
 | ʄ | 0284 | uni0284 |
 | ɉ | 0249 | uni0249 |
-| ḱ | 1E31 | uni1E31 |
-| ǩ | 01E9 | uni01E9 |
 | ꝁ | A741 | uniA741 |
-| ĸ | 0138 | kgreenlandic |
+| ꟛ | A7DB | uniA7DB |
 | ƛ | 019B | uni019B |
 | ƚ | 019A | uni019A |
 | ɬ | 026C | uni026C |
 | ḽ | 1E3D | uni1E3D |
-| ŀ | 0140 | ldot |
+|  | None | uni013C.loclMAH |
 | ⱡ | 2C61 | uni2C61 |
-| ɫ | 026B | uni026B |
 | ǉ | 01C9 | uni01C9 |
+| ɫ | 026B | uni026B |
+| ẛ | 1E9B | uni1E9B |
 | ḿ | 1E3F | uni1E3F |
 | ɱ | 0271 | uni0271 |
 | ɯ | 026F | uni026F |
-| ŉ | 0149 | napostrophe |
 | ṋ | 1E4B | uni1E4B |
-| ǹ | 01F9 | uni01F9 |
+|  | None | uni0146.loclMAH |
 | ǌ | 01CC | uni01CC |
 | ƞ | 019E | uni019E |
 | ɵ | 0275 | uni0275 |
 | ȍ | 020D | uni020D |
-| ȫ | 022B | uni022B |
-| ȯ | 022F | uni022F |
-| ȱ | 0231 | uni0231 |
 | ȏ | 020F | uni020F |
-| ṓ | 1E53 | uni1E53 |
 | ṑ | 1E51 | uni1E51 |
 | ꞷ | A7B7 | uniA7B7 |
-| ǫ | 01EB | uni01EB |
-| ǭ | 01ED | uni01ED |
-| ǿ | 01FF | oslashacute |
 | ṍ | 1E4D | uni1E4D |
 | ṏ | 1E4F | uni1E4F |
-| ȭ | 022D | uni022D |
 | ȣ | 0223 | uni0223 |
-| ṕ | 1E55 | uni1E55 |
 | ɸ | 0278 | uni0278 |
 | ƥ | 01A5 | uni01A5 |
 | ᵽ | 1D7D | uni1D7D |
@@ -1645,22 +1688,17 @@ Essential resource: Donny Trương’s [vietnamesetypography.com](https://vietna
 | ȹ | 0239 | uni0239 |
 | ɤ | 0264 | uni0264 |
 | ȑ | 0211 | uni0211 |
+| ɾ | 027E | uni027E |
 | ɽ | 027D | uni027D |
-| ȓ | 0213 | uni0213 |
 | ɍ | 024D | uni024D |
 | ṥ | 1E65 | uni1E65 |
-| ꞌ | A78C | uniA78C |
 | ṧ | 1E67 | uni1E67 |
-| ṡ | 1E61 | uni1E61 |
 | ṩ | 1E69 | uni1E69 |
 | ꞩ | A7A9 | uniA7A9 |
+| ꟍ | A7CD | uniA7CD |
 | ſ | 017F | longs |
-| ẛ | 1E9B | uni1E9B |
-| ŧ | 0167 | tbar |
 | ṱ | 1E71 | uni1E71 |
 | ⱦ | 2C66 | uni2C66 |
-| ẗ | 1E97 | uni1E97 |
-| ṫ | 1E6B | uni1E6B |
 | ʧ | 02A7 | uni02A7 |
 | ƭ | 01AD | uni01AD |
 | ʈ | 0288 | uni0288 |
@@ -1673,48 +1711,53 @@ Essential resource: Donny Trương’s [vietnamesetypography.com](https://vietna
 | ʊ | 028A | uni028A |
 | ṹ | 1E79 | uni1E79 |
 | ṵ | 1E75 | uni1E75 |
-| ꞹ | A7B9 | uniA7B9 |
 | ṿ | 1E7F | uni1E7F |
 | ʋ | 028B | uni028B |
 | ṽ | 1E7D | uni1E7D |
-| ẇ | 1E87 | uni1E87 |
 | ⱳ | 2C73 | uni2C73 |
 | ẘ | 1E98 | uni1E98 |
 | ẋ | 1E8B | uni1E8B |
 | ẙ | 1E99 | uni1E99 |
 | ɏ | 024F | uni024F |
 | ʎ | 028E | uni028E |
-| ẑ | 1E91 | uni1E91 |
 | ƶ | 01B6 | uni01B6 |
-| β | 03B2 | beta |
-| ε | 03B5 | epsilon |
-| θ | 03B8 | theta |
-| λ | 03BB | lambda |
-| ω | 03C9 | omega |
-|  | None | uni013C.loclMAH |
-|  | None | uni0146.loclMAH |
-|  | None | aogonek.loclNAV |
-|  | None | eogonek.loclNAV |
+| ꞌ | A78C | uniA78C |
+| ƒ | 0192 | florin |
+|  | None | idotlessdotbelow |
+|  | None | idotlessogonek |
+|  | None | idotlesstildebelow |
+|  | None | jcrossedtaildotless |
+| ꞹ | A7B9 | uniA7B9 |
+| ₐ | 2090 | uni2090 |
+| ₑ | 2091 | uni2091 |
+| ₒ | 2092 | uni2092 |
+| ₔ | 2094 | uni2094 |
+| ₓ | 2093 | uni2093 |
 | ǂ | 01C2 | uni01C2 |
 | ǀ | 01C0 | uni01C0 |
 | ǁ | 01C1 | uni01C1 |
 | ǃ | 01C3 | uni01C3 |
-| ₐ | 2090 | uni2090 |
-| ₑ | 2091 | uni2091 |
 | ʱ | 02B1 | uni02B1 |
 | ʰ | 02B0 | uni02B0 |
 | ⁱ | 2071 | uni2071 |
 | ʲ | 02B2 | uni02B2 |
 | ˡ | 02E1 | uni02E1 |
 | ⁿ | 207F | uni207F |
-| ₒ | 2092 | uni2092 |
 | ʳ | 02B3 | uni02B3 |
-| ₔ | 2094 | uni2094 |
 | ˢ | 02E2 | uni02E2 |
 | ʷ | 02B7 | uni02B7 |
-| ₓ | 2093 | uni2093 |
 | ˣ | 02E3 | uni02E3 |
 | ʸ | 02B8 | uni02B8 |
+| Β | 0392 | Beta |
+| Ε | 0395 | Epsilon |
+| Θ | 0398 | Theta |
+| Λ | 039B | Lambda |
+| Ω | 03A9 | uni03A9 |
+| β | 03B2 | beta |
+| ε | 03B5 | epsilon |
+| θ | 03B8 | theta |
+| λ | 03BB | lambda |
+| ω | 03C9 | omega |
 | ₕ | 2095 | uni2095 |
 | ₖ | 2096 | uni2096 |
 | ₗ | 2097 | uni2097 |
@@ -1722,19 +1765,32 @@ Essential resource: Donny Trương’s [vietnamesetypography.com](https://vietna
 | ₙ | 2099 | uni2099 |
 | ₚ | 209A | uni209A |
 | ₛ | 209B | uni209B |
-| ᶿ | 1DBF | uni1DBF |
 | ₜ | 209C | uni209C |
+| ᵃ | 1D43 | uni1D43 |
+| ᵈ | 1D48 | uni1D48 |
+| ᵋ | 1D4B | uni1D4B |
+| ᵉ | 1D49 | uni1D49 |
+| ᶤ | 1DA4 | uni1DA4 |
+| ᵓ | 1D53 | uni1D53 |
+| ᵒ | 1D52 | uni1D52 |
+| ᶿ | 1DBF | uni1DBF |
+| ᵗ | 1D57 | uni1D57 |
+| ᶶ | 1DB6 | uni1DB6 |
 | ᵘ | 1D58 | uni1D58 |
 | ᵛ | 1D5B | uni1D5B |
 | ᶻ | 1DBB | uni1DBB |
-| ˀ | 02C0 | uni02C0 |
-| ˁ | 02C1 | uni02C1 |
-| ʹ | 02B9 | uni02B9 |
-| ˈ | 02C8 | uni02C8 |
+| ‿ | 203F | uni203F |
+| ˠ | 02E0 | uni02E0 |
 | ꞉ | A789 | uniA789 |
 | ˮ | 02EE | uni02EE |
 | ˗ | 02D7 | uni02D7 |
 | ꞊ | A78A | uniA78A |
+| ˬ | 02EC | uni02EC |
+| Ⓐ | 24B6 | uni24B6 |
+| ⓐ | 24D0 | uni24D0 |
+| ⋯ | 22EF | uni22EF |
+| ᷊ | 1DCA | uni1DCA |
+| ͂ | 0342 | uni0342 |
 |  | None | uni03080300 |
 |  | None | uni03080301 |
 |  | None | uni0308030C |
@@ -1750,31 +1806,34 @@ Essential resource: Donny Trương’s [vietnamesetypography.com](https://vietna
 |  | None | uni03040308 |
 |  | None | uni03040300 |
 |  | None | uni03040301 |
-| ᷇ | 1DC7 | uni1DC7 |
-| ᷆ | 1DC6 | uni1DC6 |
-| ᷅ | 1DC5 | uni1DC5 |
-| ᷄ | 1DC4 | uni1DC4 |
-| ̍ | 030D | uni030D |
 | ̏ | 030F | uni030F |
 | ̑ | 0311 | uni0311 |
 | ̓ | 0313 | uni0313 |
-| ̕ | 0315 | uni0315 |
 | ̠ | 0320 | uni0320 |
 | ̤ | 0324 | uni0324 |
-| ̥ | 0325 | uni0325 |
 | ̩ | 0329 | uni0329 |
 | ̭ | 032D | uni032D |
 | ̯ | 032F | uni032F |
 | ̰ | 0330 | uni0330 |
 | ̲ | 0332 | uni0332 |
+| ̴ | 0334 | uni0334 |
+| ̷ | 0337 | uni0337 |
+| ̸ | 0338 | uni0338 |
+| ͘ | 0358 | uni0358 |
 | ͜ | 035C | uni035C |
 | ͝ | 035D | uni035D |
 | ͡ | 0361 | uni0361 |
-| ᷊ | 1DCA | uni1DCA |
-| ̴ | 0334 | uni0334 |
-| ͘ | 0358 | uni0358 |
+| ᷇ | 1DC7 | uni1DC7 |
+| ᷅ | 1DC5 | uni1DC5 |
+| ᷄ | 1DC4 | uni1DC4 |
+| ᷆ | 1DC6 | uni1DC6 |
+| ˉ | 02C9 | uni02C9 |
 | ˊ | 02CA | uni02CA |
 | ˋ | 02CB | uni02CB |
+| ˑ | 02D1 | uni02D1 |
+| ː | 02D0 | uni02D0 |
+| ˀ | 02C0 | uni02C0 |
+| ˁ | 02C1 | uni02C1 |
 
 
 </details>
@@ -2267,18 +2326,19 @@ The design of these Latin uppercase letters is different from their Greek sister
 ##### /beta/epsilon/theta/lambda/omega (βεθλω)
 These Greek letters are sometimes being used in Latin context and therefore should be included.
 
-##### /jcaron.case/glottalstopreversed.case
-I included these since in unicode there are no uppercase variants of /jcaron/glottalstopreversed (ǰʕ).
+##### More handy advice/tools
+* [design.google: Giving African languages more Latin font choices](https://design.google/library/meet-questrial-African-languages-font)
+* [Sharp Type: OmniLatin](https://www.sharptype.co/case-studies/omni-latin-research)
+
 
 #### OpenType features
 
-##### case
-If you include /jcaron.case/glottalstopreversed.case glyphs, `case` should contain:
-
+##### ccmp
+Make sure to remove the dots on /i and /j letters, like:
 ```
-sub jcaron by jcaron.case;
-sub glottalstopreversed by glottalstopreversed.case;
-``` 
+sub [i j idotbelow iogonek itildebelow jcrossedtail]' @CombiningTopAccents by [idotless jdotless idotlessdotbelow idotlessogonek idotlesstildebelow jcrossedtaildotless ];
+```
+
 
 ##### locl
 Use something like this in your `locl` feature:
@@ -2305,6 +2365,8 @@ sub eogonek by eogonek.loclNAV;
 ##### mark 
 For full language support, a proper `mark` feature is required.
 
+I suggest checking with [Shaperglot](https://googlefonts.github.io/shaperglot/).
+
 
 ## Latin XL
 *Latin XL* fills up [Adobe Latin 5](http://adobe-type-tools.github.io/adobe-latin-charsets/adobe-latin-5.html), including characters for [IPA](https://en.wikipedia.org/wiki/International_Phonetic_Alphabet) and [APA](https://en.wikipedia.org/wiki/Americanist_phonetic_notation). I don’t know if this makes sense.
@@ -2313,24 +2375,21 @@ For full language support, a proper `mark` feature is required.
 
 | Char | Unicode | AGLFN name | 
 | --- | --- | --- |
-| Ɒ | 2C70 | uni2C70 |
 | Ɜ | A7AB | uniA7AB |
 | Ʞ | A7B0 | uniA7B0 |
+| Ȿ | 2C7E | uni2C7E |
 | Ʇ | A7B1 | uniA7B1 |
+| Ɀ | 2C7F | uni2C7F |
 | ʙ | 0299 | uni0299 |
 | ᴅ | 1D05 | uni1D05 |
-| ɢ | 0262 | uni0262 |
 | ʛ | 029B | uni029B |
 | ʜ | 029C | uni029C |
-| ᵻ | 1D7B | uni1D7B |
 | ʟ | 029F | uni029F |
 | ɴ | 0274 | uni0274 |
 | ɶ | 0276 | uni0276 |
-| ʀ | 0280 | uni0280 |
 | ʁ | 0281 | uni0281 |
 | ᵾ | 1D7E | uni1D7E |
 | ʏ | 028F | uni028F |
-| ɒ | 0252 | uni0252 |
 | ᶐ | 1D90 | uni1D90 |
 | ᶏ | 1D8F | uni1D8F |
 | ʭ | 02AD | uni02AD |
@@ -2389,7 +2448,6 @@ For full language support, a proper `mark` feature is required.
 | ᵱ | 1D71 | uni1D71 |
 | ᶈ | 1D88 | uni1D88 |
 | ʠ | 02A0 | uni02A0 |
-| ɾ | 027E | uni027E |
 | ᵳ | 1D73 | uni1D73 |
 | ɿ | 027F | uni027F |
 | ɻ | 027B | uni027B |
@@ -2402,6 +2460,7 @@ For full language support, a proper `mark` feature is required.
 | ʂ | 0282 | uni0282 |
 | ᵴ | 1D74 | uni1D74 |
 | ᶊ | 1D8A | uni1D8A |
+| ȿ | 023F | uni023F |
 | ʨ | 02A8 | uni02A8 |
 | ᵵ | 1D75 | uni1D75 |
 | ʦ | 02A6 | uni02A6 |
@@ -2415,6 +2474,7 @@ For full language support, a proper `mark` feature is required.
 | ᵶ | 1D76 | uni1D76 |
 | ᶎ | 1D8E | uni1D8E |
 | ʐ | 0290 | uni0290 |
+| ɀ | 0240 | uni0240 |
 | ʶ | 02B6 | uni02B6 |
 | ᵅ | 1D45 | uni1D45 |
 | ᶛ | 1D9B | uni1D9B |
@@ -2433,15 +2493,13 @@ For full language support, a proper `mark` feature is required.
 | ᶝ | 1D9D | uni1D9D |
 | ᵡ | 1D61 | uni1D61 |
 | ᶜ | 1D9C | uni1D9C |
-| ᵋ | 1D4B | uni1D4B |
-| ᶟ | 1D9F | uni1D9F |
 | ᵑ | 1D51 | uni1D51 |
+| ᶟ | 1D9F | uni1D9F |
 | ᶴ | 1DB4 | uni1DB4 |
 | ᶞ | 1D9E | uni1D9E |
 | ᶾ | 1DBE | uni1DBE |
 | ᶠ | 1DA0 | uni1DA0 |
 | ᶣ | 1DA3 | uni1DA3 |
-| ᶤ | 1DA4 | uni1DA4 |
 | ᶨ | 1DA8 | uni1DA8 |
 | ᶡ | 1DA1 | uni1DA1 |
 | ᵏ | 1D4F | uni1D4F |
@@ -2452,26 +2510,23 @@ For full language support, a proper `mark` feature is required.
 | ᵐ | 1D50 | uni1D50 |
 | ᶮ | 1DAE | uni1DAE |
 | ᶯ | 1DAF | uni1DAF |
-| ᵓ | 1D53 | uni1D53 |
+| ꟹ | A7F9 | uniA7F9 |
 | ꜜ | A71C | uniA71C |
 | ꜝ | A71D | uniA71D |
 | ꜛ | A71B | uniA71B |
 | ᵊ | 1D4A | uni1D4A |
 | ᶢ | 1DA2 | uni1DA2 |
 | ᶳ | 1DB3 | uni1DB3 |
-| ᶶ | 1DB6 | uni1DB6 |
 | ᶷ | 1DB7 | uni1DB7 |
 | ᶹ | 1DB9 | uni1DB9 |
 | ᶺ | 1DBA | uni1DBA |
 | ᶽ | 1DBD | uni1DBD |
 | ᶼ | 1DBC | uni1DBC |
-| ꟹ | A7F9 | uniA7F9 |
 | ‎ | 200E | uni200E |
 | ‏ | 200F | uni200F |
 | ‖ | 2016 | uni2016 |
 | ‼ | 203C | exclamdbl |
 | ‾ | 203E | uni203E |
-| ‿ | 203F | uni203F |
 | ‗ | 2017 | underscoredbl |
 | ‛ | 201B | quotereversed |
 | ‟ | 201F | uni201F |
@@ -2481,7 +2536,6 @@ For full language support, a proper `mark` feature is required.
 | ˄ | 02C4 | uni02C4 |
 | ˹ | 02F9 | uni02F9 |
 | ˻ | 02FB | uni02FB |
-| ˟ | 02DF | uni02DF |
 | ˕ | 02D5 | uni02D5 |
 | ˺ | 02FA | uni02FA |
 | ˼ | 02FC | uni02FC |
@@ -2498,7 +2552,6 @@ For full language support, a proper `mark` feature is required.
 | ˾ | 02FE | uni02FE |
 | ˖ | 02D6 | uni02D6 |
 | ˸ | 02F8 | uni02F8 |
-| ˞ | 02DE | uni02DE |
 | ˓ | 02D3 | uni02D3 |
 | ˒ | 02D2 | uni02D2 |
 | ˽ | 02FD | uni02FD |
@@ -2509,9 +2562,11 @@ For full language support, a proper `mark` feature is required.
 | ˧ | 02E7 | uni02E7 |
 | ˭ | 02ED | uni02ED |
 | ˔ | 02D4 | uni02D4 |
+| ˟ | 02DF | uni02DF |
+| ˞ | 02DE | uni02DE |
 | ˤ | 02E4 | uni02E4 |
-| ◌ | 25CC | uni25CC |
 | � | FFFD | uniFFFD |
+| ◌ | 25CC | uni25CC |
 | ͣ | 0363 | uni0363 |
 | ͨ | 0368 | uni0368 |
 | ͩ | 0369 | uni0369 |
@@ -2547,8 +2602,6 @@ For full language support, a proper `mark` feature is required.
 | ̬ | 032C | uni032C |
 | ̳ | 0333 | uni0333 |
 | ̶ | 0336 | uni0336 |
-| ̷ | 0337 | uni0337 |
-| ̸ | 0338 | uni0338 |
 | ̹ | 0339 | uni0339 |
 | ̺ | 033A | uni033A |
 | ̻ | 033B | uni033B |
@@ -2579,26 +2632,17 @@ For full language support, a proper `mark` feature is required.
 | ͚ | 035A | uni035A |
 | ͛ | 035B | uni035B |
 | ͞ | 035E | uni035E |
-| ͟ | 035F | uni035F |
 | ͠ | 0360 | uni0360 |
 | ͢ | 0362 | uni0362 |
 | ᷉ | 1DC9 | uni1DC9 |
 | ᷈ | 1DC8 | uni1DC8 |
-| ˉ | 02C9 | uni02C9 |
 | ˪ | 02EA | uni02EA |
 | ˫ | 02EB | uni02EB |
 | ˏ | 02CF | uni02CF |
-| ˑ | 02D1 | uni02D1 |
-| ː | 02D0 | uni02D0 |
 | ʽ | 02BD | uni02BD |
-| ʺ | 02BA | uni02BA |
 | ˎ | 02CE | uni02CE |
 | ˍ | 02CD | uni02CD |
-| ˌ | 02CC | uni02CC |
-| Ȿ | 2C7E | uni2C7E |
-| Ɀ | 2C7F | uni2C7F |
-| ȿ | 023F | uni023F |
-| ɀ | 0240 | uni0240 |
+
 
 </details>
 
@@ -2627,8 +2671,9 @@ Please contribute to Hyperglot, give feedback, and join the discussion to furthe
 ### Analysing character sets
 * [Bulletproof Font Tester](https://www.adamjagosz.com/bulletproof/)
 * [CharSet Checker (Alphabet Type)](https://www.alphabet-type.com/tools/charset-checker/)
-* **[Hyperglot (Rosetta Type)](https://hyperglot.rosettatype.com/)**
+* [Hyperglot (Rosetta Type)](https://hyperglot.rosettatype.com/)
 * [Latin Plus (Underware)](https://underware.nl/latin_plus/)
+* [Shaperglot (Google Fonts)](https://googlefonts.github.io/shaperglot/)
 
 ### Designing diacritics
 * [Diacritics Project](http://diacritics.typo.cz/)
@@ -2650,6 +2695,7 @@ I’m more than happy that type designers have released fonts supporting the new
 * [Neue DIN](https://fontwerk.com/en/fonts/neue-din) by H. Weber, A. Frohloff, O. Meier / Fontwerk
 * [Pangea & Pangea Text](https://fontwerk.com/en/fonts/pangea-superfamily) by Christoph Koeberlin / Fontwerk
 * [Pantasia](https://counter-forms.com/typefaces/pantasia) by Wei Huang / Counter Forms
+* [Playfair](https://github.com/clauseggers/Playfair) by Claus Eggers Sørensen 🆓
 * [MD Polychrome](https://mass-driver.com/typefaces/md-polychrome) by Rutherford Craze / Mass-Driver
 * [MD Primer](https://mass-driver.com/typeface/md-primer) by Rutherford Craze & Luke Charsley / Mass-Driver
 * [Sudo](https://www.kutilek.de/sudo-font/) by Jens Kutílek 🆓
@@ -2668,10 +2714,15 @@ I’m more than happy that type designers have released fonts supporting the new
 
 # Changelog
 
+### v1.0.0
+* Latin M extended to support [DIN 91379](https://en.wikipedia.org/wiki/DIN_91379): Glyphs from latin L and Latin XL moved to Latin M (ǞǺǼḂḆƇḐḊȨḜḖƷǮḞǴǤȞḢḮĲḰǨĿǸȪȮȰṒǪǬǾȬṔȒṠŦṪẆẐǟȧǻǽḃḇƈḑḋȩḝḗʒǯḟǵǥȟḣḯĳǰḱǩĸŀŉǹȫȯȱṓǫǭǿȭṕȓṡŧẗṫẇẑ◌̍◌̐◌̕◌̥◌͟ʺʹˌˈ)
+* Latin L extended (+ ƦƂꟇꟚꟜꟋꟌɢᵻƃꟈꟛꟍᵋᶤᵓᶶ‿◌̷◌̸ˉˑːᵃᵈᵉᵒᵗˠˬ⋯◌͂ʀⒶⓐ), including three new Unicode letters for Haíɫzaqvḷa (Thank you, [Typotheque](https://heiltsukrevitalization.com/unicode/)) + support for [OmniLatin](https://www.sharptype.co/case-studies/omni-latin-research)
+* txt files with glyph names added for Glyphs and RoboFont (Thank you, [Olli & Just](https://github.com/googlefonts/fontra/discussions/1943#discussioncomment-11844623))
+
 ### v0.9.1
 * Removed prebuilt Dutch j_acutecomb.latnNLD from Latin S, added `ccmp` feature suggestion. (Thank you, [Erik & Colin](https://github.com/koeberlin/Latin-Character-Sets/discussions/4))
 * Rupee sign (U+20B9) added to Latin S (Thank you, [Lorp](https://github.com/Lorp))
-* Localized glyph names fixed in Robofont FontSet (Thank you, [CJ Dunn](https://github.com/cjdunn))
+* Localized glyph names fixed in RoboFont FontSet (Thank you, [CJ Dunn](https://github.com/cjdunn))
 * Changed glyph name suffixes from .latn* to .locl* for a better integration in Glyphs automatic OpenType feature builder (Thank you, Nika Langosz)
 * Some additions to Latin L, some transitions from Latin XL to Latin L, according to [GF Latin African](https://github.com/googlefonts/glyphsets/tree/main/GF_glyphsets/Latin#gf-latin-african)
 
