@@ -17,7 +17,6 @@ Phook
 phook
 yr
 Esh
-eshreversedloop
 Thook
 thook
 Tretroflexhook
@@ -72,8 +71,6 @@ yogh
 Nlongrightleg
 Ou
 ou
-dbdigraph
-qpdigraph
 Astroke
 Cstroke
 cstroke
@@ -95,7 +92,6 @@ Ystroke
 ystroke
 aturned
 ipa:alpha
-alphaturned
 dtail
 dotlessjstroke
 ghook
@@ -113,7 +109,6 @@ lbelt
 mturned
 mhook
 obarred
-ipa:phi
 ipa:rtail
 rfishhook
 Rsmall
@@ -128,7 +123,6 @@ ipa:glottalstop
 pharyngealvoicedfricative
 clickbilabial
 jcrossedtail
-tesh
 hsupmod
 hhooksupmod
 jsupmod
@@ -280,20 +274,19 @@ tstroke
 lt:Alpha
 Mhook
 Aturned
-lt:Alphaturned
 Whook
 whook
 Heng
 heng
 Kstroke
 kstroke
+Lstroke
+lstroke
 colonmod
 shortequalsmod
 Saltillo
 saltillo
 Hturned
-Fstroke
-fstroke
 Sobliquestroke
 sobliquestroke
 Hhook
@@ -308,7 +301,7 @@ lt:Omega
 lt:omega
 Ustroke
 ustroke
-lt:chi
+lt:chi 
 uniA7C7
 uniA7C8
 uniA7CB

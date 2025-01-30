@@ -1,5 +1,9 @@
+eshreversedloop
+dbdigraph
+qpdigraph
 sswashtail
 zswashtail
+alphaturned
 ccurl
 ipa:ereversed
 schwahook
@@ -13,6 +17,7 @@ nretroflex
 Nsmall
 OEsmall
 omegaclosed
+ipa:phi
 rturned
 rlonglegturned
 rhookturned
@@ -43,6 +48,7 @@ dzed
 dezh
 dzedcurl
 ts
+tesh
 tccurl
 feng
 ls
@@ -253,15 +259,18 @@ quotedblreversed
 exclamdbl
 overline
 circledotted
+lt:Alphaturned
 vrighthook
 Sswashtail
 Zswashtail
 lbeltretroflex
+Fstroke
+fstroke
 Ereversedopen
 Kturned
 Tturned
 ligatureoemod
-replacementchar
+replacementchar 
 uniA71B
 uniA71C
 uniA71D

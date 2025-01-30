@@ -1,12 +1,11 @@
 %%FONTLAB ENCODING: 66600003; Latin L
 %%GROUP: Koeberlin Latin
 %% Source: https://github.com/koeberlin/Latin-Character-Sets
-%% Version 1.0.0
+%% Version 1.0.1
 uni0200
 uni01E0
 uni0202
 uni2C6D
-uni2C70
 Aogonek.loclNAV
 uni1E00
 uni023A
@@ -33,7 +32,6 @@ uni01A9
 uni0246
 uni1E1A
 uni01B8
-uniA798
 uni0191
 uni0193
 uni0241
@@ -53,6 +51,7 @@ uni01C7
 uniA7DA
 uniA7DC
 uni023D
+uniA748
 uniA7AD
 uni1E3C
 uni013B.loclMAH
@@ -111,7 +110,6 @@ uni01A6
 uni024E
 uni01B5
 uniA78B
-uni0295.case
 uniA7B8
 uniA7AE
 uni0262
@@ -122,7 +120,6 @@ uni0201
 uni01E1
 uni0203
 uni0251
-uni0252
 aogonek.loclNAV
 uni1E9A
 uni1E01
@@ -135,7 +132,6 @@ uni0183
 uni1E09
 uniAB53
 uni023C
-uni0238
 uni1E13
 uniA7C8
 uni0256
@@ -147,11 +143,9 @@ uni0207
 uni1E15
 eogonek.loclNAV
 uni0283
-uni01AA
 uni0247
 uni1E1B
 uni01B9
-uniA799
 uni0263
 uni0260
 uni0294
@@ -175,6 +169,7 @@ uniA741
 uniA7DB
 uni019B
 uni019A
+uniA749
 uni026C
 uni1E3D
 uni013C.loclMAH
@@ -197,11 +192,9 @@ uniA7B7
 uni1E4D
 uni1E4F
 uni0223
-uni0278
 uni01A5
 uni1D7D
 uni024B
-uni0239
 uni0264
 uni0211
 uni027E
@@ -215,7 +208,6 @@ uniA7CD
 longs
 uni1E71
 uni2C66
-uni02A7
 uni01AD
 uni0288
 uni0289

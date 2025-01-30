@@ -1491,7 +1491,6 @@ At the DIN 91379 repository there’s a text file for checking characters and se
 | Ǡ | 01E0 | uni01E0 |
 | Ȃ | 0202 | uni0202 |
 | Ɑ | 2C6D | uni2C6D |
-| Ɒ | 2C70 | uni2C70 |
 |  | None | Aogonek.loclNAV |
 | Ḁ | 1E00 | uni1E00 |
 | Ⱥ | 023A | uni023A |
@@ -1518,7 +1517,6 @@ At the DIN 91379 repository there’s a text file for checking characters and se
 | Ɇ | 0246 | uni0246 |
 | Ḛ | 1E1A | uni1E1A |
 | Ƹ | 01B8 | uni01B8 |
-| Ꞙ | A798 | uniA798 |
 | Ƒ | 0191 | uni0191 |
 | Ɠ | 0193 | uni0193 |
 | Ɂ | 0241 | uni0241 |
@@ -1538,6 +1536,7 @@ At the DIN 91379 repository there’s a text file for checking characters and se
 | Ꟛ | A7DA | uniA7DA |
 | Ƛ | A7DC | uniA7DC |
 | Ƚ | 023D | uni023D |
+| Ꝉ | A748 | uniA748 |
 | Ɬ | A7AD | uniA7AD |
 | Ḽ | 1E3C | uni1E3C |
 |  | None | uni013B.loclMAH |
@@ -1606,7 +1605,6 @@ At the DIN 91379 repository there’s a text file for checking characters and se
 | ǡ | 01E1 | uni01E1 |
 | ȃ | 0203 | uni0203 |
 | ɑ | 0251 | uni0251 |
-| ɒ | 0252 | uni0252 |
 |  | None | aogonek.loclNAV |
 | ẚ | 1E9A | uni1E9A |
 | ḁ | 1E01 | uni1E01 |
@@ -1619,7 +1617,6 @@ At the DIN 91379 repository there’s a text file for checking characters and se
 | ḉ | 1E09 | uni1E09 |
 | ꭓ | AB53 | uniAB53 |
 | ȼ | 023C | uni023C |
-| ȸ | 0238 | uni0238 |
 | ḓ | 1E13 | uni1E13 |
 | ꟈ | A7C8 | uniA7C8 |
 | ɖ | 0256 | uni0256 |
@@ -1631,11 +1628,9 @@ At the DIN 91379 repository there’s a text file for checking characters and se
 | ḕ | 1E15 | uni1E15 |
 |  | None | eogonek.loclNAV |
 | ʃ | 0283 | uni0283 |
-| ƪ | 01AA | uni01AA |
 | ɇ | 0247 | uni0247 |
 | ḛ | 1E1B | uni1E1B |
 | ƹ | 01B9 | uni01B9 |
-| ꞙ | A799 | uniA799 |
 | ɣ | 0263 | uni0263 |
 | ɠ | 0260 | uni0260 |
 | ʔ | 0294 | uni0294 |
@@ -1659,6 +1654,7 @@ At the DIN 91379 repository there’s a text file for checking characters and se
 | ꟛ | A7DB | uniA7DB |
 | ƛ | 019B | uni019B |
 | ƚ | 019A | uni019A |
+| ꝉ | A749 | uniA749 |
 | ɬ | 026C | uni026C |
 | ḽ | 1E3D | uni1E3D |
 |  | None | uni013C.loclMAH |
@@ -1681,11 +1677,9 @@ At the DIN 91379 repository there’s a text file for checking characters and se
 | ṍ | 1E4D | uni1E4D |
 | ṏ | 1E4F | uni1E4F |
 | ȣ | 0223 | uni0223 |
-| ɸ | 0278 | uni0278 |
 | ƥ | 01A5 | uni01A5 |
 | ᵽ | 1D7D | uni1D7D |
 | ɋ | 024B | uni024B |
-| ȹ | 0239 | uni0239 |
 | ɤ | 0264 | uni0264 |
 | ȑ | 0211 | uni0211 |
 | ɾ | 027E | uni027E |
@@ -1699,7 +1693,6 @@ At the DIN 91379 repository there’s a text file for checking characters and se
 | ſ | 017F | longs |
 | ṱ | 1E71 | uni1E71 |
 | ⱦ | 2C66 | uni2C66 |
-| ʧ | 02A7 | uni02A7 |
 | ƭ | 01AD | uni01AD |
 | ʈ | 0288 | uni0288 |
 | ʉ | 0289 | uni0289 |
@@ -2642,6 +2635,15 @@ I suggest checking with [Shaperglot](https://googlefonts.github.io/shaperglot/).
 | ʽ | 02BD | uni02BD |
 | ˎ | 02CE | uni02CE |
 | ˍ | 02CD | uni02CD |
+| Ɒ | 2C70 | uni2C70 |
+| Ꞙ | A798 | uniA798 |
+| ɒ | 0252 | uni0252 |
+| ȸ | 0238 | uni0238 |
+| ƪ | 01AA | uni01AA |
+| ꞙ | A799 | uniA799 |
+| ɸ | 0278 | uni0278 |
+| ȹ | 0239 | uni0239 |
+| ʧ | 02A7 | uni02A7 |
 
 
 </details>
@@ -2713,6 +2715,10 @@ I’m more than happy that type designers have released fonts supporting the new
 * [SIL fonts](https://software.sil.org/fonts/)
 
 # Changelog
+
+### v1.0.1
+* Latin L extended (+ Ꝉꝉ) according to OmniLatin
+* Glyphs from Latin L moved to Latin XL (ⱰꞘɒȸƪꞙɸȹʧ), following [Denis’ advice](https://github.com/koeberlin/Latin-Character-Sets/pull/14#issuecomment-1570788047) (Thank you!)
 
 ### v1.0.0
 * Latin M extended to support [DIN 91379](https://en.wikipedia.org/wiki/DIN_91379): Glyphs from latin L and Latin XL moved to Latin M (ǞǺǼḂḆƇḐḊȨḜḖƷǮḞǴǤȞḢḮĲḰǨĿǸȪȮȰṒǪǬǾȬṔȒṠŦṪẆẐǟȧǻǽḃḇƈḑḋȩḝḗʒǯḟǵǥȟḣḯĳǰḱǩĸŀŉǹȫȯȱṓǫǭǿȭṕȓṡŧẗṫẇẑ◌̍◌̐◌̕◌̥◌͟ʺʹˌˈ)

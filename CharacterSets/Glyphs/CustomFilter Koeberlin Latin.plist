@@ -3,7 +3,7 @@
 <plist version="1.0">
 <!-- 
 	Source: https://github.com/koeberlin/Latin-Character-Sets
-	Version 1.0.0
+	Version 1.0.1
 -->
 <array>
 	<dict>
@@ -609,7 +609,6 @@
 			<string>Adotmacron</string>
 			<string>Ainvertedbreve</string>
 			<string>Alpha-latin</string>
-			<string>Alphaturned-latin</string>
 			<string>Aogonek.loclNAV</string>
 			<string>Aringbelow</string>
 			<string>Astroke</string>
@@ -636,7 +635,6 @@
 			<string>Estroke</string>
 			<string>Etildebelow</string>
 			<string>Ezhreversed</string>
-			<string>FStroke</string>
 			<string>Fhook</string>
 			<string>Ghook</string>
 			<string>Glottalstop</string>
@@ -656,6 +654,7 @@
 			<string>Lambda-latin</string>
 			<string>Lambdastroke-latin</string>
 			<string>Lbar</string>
+			<string>Lhighstroke</string>
 			<string>Lbelt</string>
 			<string>Lcircumflexbelow</string>
 			<string>Lcommaaccent.loclMAH</string>
@@ -724,7 +723,6 @@
 			<string>adotmacron</string>
 			<string>ainvertedbreve</string>
 			<string>alpha-latin</string>
-			<string>alphaturned-latin</string>
 			<string>aogonek.loclNAV</string>
 			<string>arighthalfring</string>
 			<string>aringbelow</string>
@@ -737,7 +735,6 @@
 			<string>ccedillaacute</string>
 			<string>chi-latin</string>
 			<string>cstroke</string>
-			<string>dbdigraph</string>
 			<string>dcircumflexbelow</string>
 			<string>dshortstrokeoverlay</string>
 			<string>dtail</string>
@@ -749,11 +746,9 @@
 			<string>emacrongrave</string>
 			<string>eogonek.loclNAV</string>
 			<string>esh</string>
-			<string>eshreversedloop</string>
 			<string>estroke</string>
 			<string>etildebelow</string>
 			<string>ezhreversed</string>
-			<string>fStroke</string>
 			<string>gamma-latin</string>
 			<string>ghook</string>
 			<string>glottalstop</string>
@@ -777,6 +772,7 @@
 			<string>lambda-latin</string>
 			<string>lambdastroke</string>
 			<string>lbar</string>
+			<string>lhighstroke</string>
 			<string>lbelt</string>
 			<string>lcircumflexbelow</string>
 			<string>lcommaaccent.loclMAH</string>
@@ -799,11 +795,9 @@
 			<string>otildeacute</string>
 			<string>otildedieresis</string>
 			<string>ou</string>
-			<string>phi-latin</string>
 			<string>phook</string>
 			<string>pstroke</string>
 			<string>qhooktail</string>
-			<string>qpdigraph</string>
 			<string>ramshorn</string>
 			<string>rdblgrave</string>
 			<string>rfishhook</string>
@@ -817,7 +811,6 @@
 			<string>longs</string>
 			<string>tcircumflexbelow</string>
 			<string>tdiagonalstroke</string>
-			<string>tesh</string>
 			<string>thook</string>
 			<string>tretroflexhook</string>
 			<string>ubar</string>
@@ -1226,6 +1219,15 @@
 			<string>commareversedmod</string>
 			<string>gravelowmod</string>
 			<string>macronlowmod</string>
+			<string>Alphaturned-latin</string>
+			<string>FStroke</string>
+			<string>alphaturned-latin</string>
+			<string>dbdigraph</string>
+			<string>eshreversedloop</string>
+			<string>fStroke</string>
+			<string>phi-latin</string>
+			<string>qpdigraph</string>
+			<string>tesh</string>
 		</array>
 		<key>name</key>
 		<string>Latin XL</string>

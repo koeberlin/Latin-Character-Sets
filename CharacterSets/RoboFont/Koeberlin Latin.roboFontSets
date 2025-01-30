@@ -2,7 +2,7 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <!-- 
 	Source: https://github.com/koeberlin/Latin-Character-Sets
-	Version 1.0.0
+	Version 1.0.1
 -->
 <plist version="1.0">
 <array>
@@ -627,7 +627,6 @@
 					<string>phook</string>
 					<string>yr</string>
 					<string>Esh</string>
-					<string>eshreversedloop</string>
 					<string>Thook</string>
 					<string>thook</string>
 					<string>Tretroflexhook</string>
@@ -682,8 +681,6 @@
 					<string>Nlongrightleg</string>
 					<string>Ou</string>
 					<string>ou</string>
-					<string>dbdigraph</string>
-					<string>qpdigraph</string>
 					<string>Astroke</string>
 					<string>Cstroke</string>
 					<string>cstroke</string>
@@ -705,7 +702,6 @@
 					<string>ystroke</string>
 					<string>aturned</string>
 					<string>ipa:alpha</string>
-					<string>alphaturned</string>
 					<string>dtail</string>
 					<string>dotlessjstroke</string>
 					<string>ghook</string>
@@ -723,7 +719,6 @@
 					<string>mturned</string>
 					<string>mhook</string>
 					<string>obarred</string>
-					<string>ipa:phi</string>
 					<string>ipa:rtail</string>
 					<string>rfishhook</string>
 					<string>Rsmall</string>
@@ -738,7 +733,6 @@
 					<string>pharyngealvoicedfricative</string>
 					<string>clickbilabial</string>
 					<string>jcrossedtail</string>
-					<string>tesh</string>
 					<string>hsupmod</string>
 					<string>hhooksupmod</string>
 					<string>jsupmod</string>
@@ -890,20 +884,19 @@
 					<string>lt:Alpha</string>
 					<string>Mhook</string>
 					<string>Aturned</string>
-					<string>lt:Alphaturned</string>
 					<string>Whook</string>
 					<string>whook</string>
 					<string>Heng</string>
 					<string>heng</string>
 					<string>Kstroke</string>
 					<string>kstroke</string>
+					<string>Lstroke</string>
+					<string>lstroke</string>
 					<string>colonmod</string>
 					<string>shortequalsmod</string>
 					<string>Saltillo</string>
 					<string>saltillo</string>
 					<string>Hturned</string>
-					<string>Fstroke</string>
-					<string>fstroke</string>
 					<string>Sobliquestroke</string>
 					<string>sobliquestroke</string>
 					<string>Hhook</string>
@@ -918,7 +911,7 @@
 					<string>lt:omega</string>
 					<string>Ustroke</string>
 					<string>ustroke</string>
-					<string>lt:chi</string>
+					<string>lt:chi </string>
 					<string>uniA7C7</string>
 					<string>uniA7C8</string>
 					<string>uniA7CB</string>
@@ -962,8 +955,12 @@
 			<dict>
 				<key>glyphNames</key>
 				<array>
-										<string>sswashtail</string>
+					<string>eshreversedloop</string>
+					<string>dbdigraph</string>
+					<string>qpdigraph</string>
+					<string>sswashtail</string>
 					<string>zswashtail</string>
+					<string>alphaturned</string>
 					<string>ccurl</string>
 					<string>ipa:ereversed</string>
 					<string>schwahook</string>
@@ -977,6 +974,7 @@
 					<string>Nsmall</string>
 					<string>OEsmall</string>
 					<string>omegaclosed</string>
+					<string>ipa:phi</string>
 					<string>rturned</string>
 					<string>rlonglegturned</string>
 					<string>rhookturned</string>
@@ -1007,6 +1005,7 @@
 					<string>dezh</string>
 					<string>dzedcurl</string>
 					<string>ts</string>
+					<string>tesh</string>
 					<string>tccurl</string>
 					<string>feng</string>
 					<string>ls</string>
@@ -1217,15 +1216,18 @@
 					<string>exclamdbl</string>
 					<string>overline</string>
 					<string>circledotted</string>
+					<string>lt:Alphaturned</string>
 					<string>vrighthook</string>
 					<string>Sswashtail</string>
 					<string>Zswashtail</string>
 					<string>lbeltretroflex</string>
+					<string>Fstroke</string>
+					<string>fstroke</string>
 					<string>Ereversedopen</string>
 					<string>Kturned</string>
 					<string>Tturned</string>
 					<string>ligatureoemod</string>
-					<string>replacementchar</string>
+					<string>replacementchar </string>
 					<string>uniA71B</string>
 					<string>uniA71C</string>
 					<string>uniA71D</string>

@@ -265,3 +265,12 @@ acutelowmod
 commareversedmod
 gravelowmod
 macronlowmod
+Alphaturned-latin
+FStroke
+alphaturned-latin
+dbdigraph
+eshreversedloop
+fStroke
+phi-latin
+qpdigraph
+tesh

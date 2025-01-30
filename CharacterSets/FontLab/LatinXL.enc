@@ -1,7 +1,7 @@
 %%FONTLAB ENCODING: 66600004; Latin XL
 %%GROUP: Koeberlin Latin
 %% Source: https://github.com/koeberlin/Latin-Character-Sets
-%% Version 1.0.0
+%% Version 1.0.1
 uniA7AB
 uniA7B0
 uni2C7E
@@ -269,4 +269,12 @@ uni02CF
 uni02BD
 uni02CE
 uni02CD
-
+uni2C70
+uniA798
+uni0252
+uni0238
+uni01AA
+uniA799
+uni0278
+uni0239
+uni02A7

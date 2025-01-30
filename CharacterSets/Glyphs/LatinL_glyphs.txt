@@ -2,7 +2,6 @@ Adblgrave
 Adotmacron
 Ainvertedbreve
 Alpha-latin
-Alphaturned-latin
 Aogonek.loclNAV
 Aringbelow
 Astroke
@@ -29,7 +28,6 @@ Esh
 Estroke
 Etildebelow
 Ezhreversed
-FStroke
 Fhook
 Ghook
 Glottalstop
@@ -49,6 +47,7 @@ LJ
 Lambda-latin
 Lambdastroke-latin
 Lbar
+Lhighstroke
 Lbelt
 Lcircumflexbelow
 Lcommaaccent.loclMAH
@@ -117,7 +116,6 @@ adblgrave
 adotmacron
 ainvertedbreve
 alpha-latin
-alphaturned-latin
 aogonek.loclNAV
 arighthalfring
 aringbelow
@@ -130,7 +128,6 @@ btopbar
 ccedillaacute
 chi-latin
 cstroke
-dbdigraph
 dcircumflexbelow
 dshortstrokeoverlay
 dtail
@@ -142,11 +139,9 @@ einvertedbreve
 emacrongrave
 eogonek.loclNAV
 esh
-eshreversedloop
 estroke
 etildebelow
 ezhreversed
-fStroke
 gamma-latin
 ghook
 glottalstop
@@ -170,6 +165,7 @@ kstroke
 lambda-latin
 lambdastroke
 lbar
+lhighstroke
 lbelt
 lcircumflexbelow
 lcommaaccent.loclMAH
@@ -192,11 +188,9 @@ omega-latin
 otildeacute
 otildedieresis
 ou
-phi-latin
 phook
 pstroke
 qhooktail
-qpdigraph
 ramshorn
 rdblgrave
 rfishhook
@@ -210,7 +204,6 @@ sslash
 longs
 tcircumflexbelow
 tdiagonalstroke
-tesh
 thook
 tretroflexhook
 ubar
