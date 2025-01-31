@@ -2683,7 +2683,8 @@ Please contribute to Hyperglot, give feedback, and join the discussion to furthe
 * [vietnamesetypography.com](https://vietnamesetypography.com)
 
 ### Fonts already embracing (at least) Latin S
-I’m more than happy that type designers have released fonts supporting the new character sets! Please help to keep this list growing:
+I’m more than happy that type designers have released fonts supporting the new character sets! 
+Please let me know [here](https://github.com/koeberlin/Latin-Character-Sets/discussions/17), if your typeface supports at least Latin S.
 
 * [Competition](https://www.fontspring.com/fonts/sportsfonts/competition) by Christoph Koeberlin / Sportsfonts
 * [Eyja](https://counter-forms.com/typefaces/eyja) by Thy Hà / Counter Forms
@@ -2703,6 +2704,7 @@ I’m more than happy that type designers have released fonts supporting the new
 * [Sudo](https://www.kutilek.de/sudo-font/) by Jens Kutílek 🆓
 * [Telas](https://counter-forms.com/typefaces/telas) by Seb McLauchlan / Counter Forms
 * [NaN Tresor](https://www.nan.xyz/fonts/nan-tresor/) by Christoph Koeberlin / NaN
+* [Unbounded](https://www.nan.xyz/custom/polkadot/) by NaN 🆓
 * [Winner Sans](https://www.myfonts.com/collections/winner-sans-font-sportsfonts) by Christoph Koeberlin & Sven Fuchs / Sportsfonts
 * [Winner Sans Rounded](https://www.myfonts.com/collections/winner-sans-rounded-font-sportsfonts) by Christoph Koeberlin / Sportsfonts
 * [Winner Sans Soft](https://www.myfonts.com/collections/winner-sans-soft-font-sportsfonts) by Christoph Koeberlin / Sportsfonts
