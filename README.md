@@ -2687,6 +2687,7 @@ I’m more than happy that type designers have released fonts supporting the new
 Please let me know [here](https://github.com/koeberlin/Latin-Character-Sets/discussions/17), if your typeface supports at least Latin S.
 
 * [Competition](https://www.fontspring.com/fonts/sportsfonts/competition) by Christoph Koeberlin / Sportsfonts
+* [Exat](https://exat.hottype.co/) by Mihael Šandro, Marko Hrastovec / Hot Type
 * [Eyja](https://counter-forms.com/typefaces/eyja) by Thy Hà / Counter Forms
 * [Fugit](https://counter-forms.com/typefaces/fugit) by Dennis Grauel / Counter Forms
 * [Ghost War](https://www.multioculartype.co/type/ghost-war) by Multiocular Type
