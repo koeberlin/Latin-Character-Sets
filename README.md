@@ -2696,6 +2696,7 @@ Please let me know [here](https://github.com/koeberlin/Latin-Character-Sets/disc
 * [MD Lórien](https://mass-driver.com/typefaces/md-lorien/) by Rutherford Craze / Mass-Driver
 * [MD IO](https://mass-driver.com/typefaces/md-io) by Rutherford Craze / Mass-Driver
 * [NaN Metrify Pan-African](https://www.nan.xyz/fonts/nan-metrify/) by NaN
+* [Multiflex](https://www.leinstertype.com/fonts/multiflex) by Troy Leinster / Leinster Type
 * [Neue DIN](https://fontwerk.com/en/fonts/neue-din) by H. Weber, A. Frohloff, O. Meier / Fontwerk
 * [Pangea & Pangea Text](https://fontwerk.com/en/fonts/pangea-superfamily) by Christoph Koeberlin / Fontwerk
 * [Pantasia](https://counter-forms.com/typefaces/pantasia) by Wei Huang / Counter Forms
