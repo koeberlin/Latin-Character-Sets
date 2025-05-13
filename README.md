@@ -2692,6 +2692,7 @@ Please let me know [here](https://github.com/koeberlin/Latin-Character-Sets/disc
 * [Fugit](https://counter-forms.com/typefaces/fugit) by Dennis Grauel / Counter Forms
 * [Ghost War](https://www.multioculartype.co/type/ghost-war) by Multiocular Type
 * [Herbik](https://counter-forms.com/typefaces/herbik) by Daniel Veneklaas / Counter Forms
+* [Hot Sans](https://hottype.co/fonts/hot-sans) by Marko Hrastovec / Hot Type
 * [Loot Drop](https://www.multioculartype.co/type/loot-drop) by Multiocular Type
 * [MD Lórien](https://mass-driver.com/typefaces/md-lorien/) by Rutherford Craze / Mass-Driver
 * [MD IO](https://mass-driver.com/typefaces/md-io) by Rutherford Craze / Mass-Driver
