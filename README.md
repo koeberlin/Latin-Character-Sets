@@ -2707,6 +2707,7 @@ Please let me know [here](https://github.com/koeberlin/Latin-Character-Sets/disc
 * [MD Primer](https://mass-driver.com/typeface/md-primer) by Rutherford Craze & Luke Charsley / Mass-Driver
 * [Savate](https://www.plombtype.com/savate/) by Max Esnée / Plomb Type
 * [Sudo](https://www.kutilek.de/sudo-font/) by Jens Kutílek 🆓
+* [Tausend](https://fontwerk.com/en/fonts/tausend-collection) by Christoph Koeberlin / Fontwerk
 * [Telas](https://counter-forms.com/typefaces/telas) by Seb McLauchlan / Counter Forms
 * [NaN Tresor](https://www.nan.xyz/fonts/nan-tresor/) by Christoph Koeberlin / NaN
 * [Unbounded](https://www.nan.xyz/custom/polkadot/) by NaN 🆓
