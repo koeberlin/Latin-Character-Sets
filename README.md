@@ -2705,6 +2705,7 @@ Please let me know [here](https://github.com/koeberlin/Latin-Character-Sets/disc
 * [MD Polychrome](https://mass-driver.com/typefaces/md-polychrome) by Rutherford Craze / Mass-Driver
 * [Posthumous](https://www.prologuetype.co/posthumous) by Ellis Carson Jones / Prologue Type
 * [MD Primer](https://mass-driver.com/typeface/md-primer) by Rutherford Craze & Luke Charsley / Mass-Driver
+* [Retain](https://www.leinstertype.com/fonts/retain) by Ramakrishna Manda & Troy Leinster / Leinster Type
 * [Savate](https://www.plombtype.com/savate/) by Max Esnée / Plomb Type
 * [Sudo](https://www.kutilek.de/sudo-font/) by Jens Kutílek 🆓
 * [Tausend](https://fontwerk.com/en/fonts/tausend-collection) by Christoph Koeberlin / Fontwerk
