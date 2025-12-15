@@ -2689,13 +2689,16 @@ Please let me know [here](https://github.com/koeberlin/Latin-Character-Sets/disc
 * [Competition](https://www.fontspring.com/fonts/sportsfonts/competition) by Christoph Koeberlin / Sportsfonts
 * [Exat](https://exat.hottype.co/) by Mihael Šandro, Marko Hrastovec / Hot Type
 * [Eyja](https://counter-forms.com/typefaces/eyja) by Thy Hà / Counter Forms
+* [Four Grotesk](https://type.hanli.eu/four-grotesk/) by HAL Typefaces
 * [Fugit](https://counter-forms.com/typefaces/fugit) by Dennis Grauel / Counter Forms
+* [Gap](https://type.hanli.eu/gap/) by HAL Typefaces
 * [Ghost War](https://www.multioculartype.co/type/ghost-war) by Multiocular Type
 * [Herbik](https://counter-forms.com/typefaces/herbik) by Daniel Veneklaas / Counter Forms
 * [Hot Sans](https://hottype.co/fonts/hot-sans) by Marko Hrastovec / Hot Type
 * [Loot Drop](https://www.multioculartype.co/type/loot-drop) by Multiocular Type
 * [MD Lórien](https://mass-driver.com/typefaces/md-lorien/) by Rutherford Craze / Mass-Driver
 * [MD IO](https://mass-driver.com/typefaces/md-io) by Rutherford Craze / Mass-Driver
+* [Magic](https://type.hanli.eu/magic/) by HAL Typefaces
 * [NaN Metrify Pan-African](https://www.nan.xyz/fonts/nan-metrify/) by NaN
 * [Multiflex](https://www.leinstertype.com/fonts/multiflex) by Troy Leinster / Leinster Type
 * [Neue DIN](https://fontwerk.com/en/fonts/neue-din) by H. Weber, A. Frohloff, O. Meier / Fontwerk
@@ -2708,7 +2711,7 @@ Please let me know [here](https://github.com/koeberlin/Latin-Character-Sets/disc
 * [Retain](https://www.leinstertype.com/fonts/retain) by Ramakrishna Manda & Troy Leinster / Leinster Type
 * [Savate](https://www.plombtype.com/savate/) by Max Esnée / Plomb Type
 * [Sudo](https://www.kutilek.de/sudo-font/) by Jens Kutílek 🆓
-* [Tausend](https://fontwerk.com/en/fonts/tausend-collection) by Christoph Koeberlin / Fontwerk
+* [Tausend](https://fontwerk.com/en/fonts/tausend-collection) by Christoph Koeberlin & Gabriel Richter / Fontwerk
 * [Telas](https://counter-forms.com/typefaces/telas) by Seb McLauchlan / Counter Forms
 * [NaN Tresor](https://www.nan.xyz/fonts/nan-tresor/) by Christoph Koeberlin / NaN
 * [Unbounded](https://www.nan.xyz/custom/polkadot/) by NaN 🆓
