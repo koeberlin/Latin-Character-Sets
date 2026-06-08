@@ -2682,7 +2682,7 @@ Please contribute to Hyperglot, give feedback, and join the discussion to furthe
 * [Manual of Diacritics](https://www.manualofdiacritics.eu/)
 * [vietnamesetypography.com](https://vietnamesetypography.com)
 
-### Fonts already embracing (at least) Latin S
+### Fonts embracing (at least) Latin S
 I’m more than happy that type designers have released fonts supporting the new character sets! 
 Please let me know [here](https://github.com/koeberlin/Latin-Character-Sets/discussions/17), if your typeface supports at least Latin S.
 
@@ -2692,27 +2692,36 @@ Please let me know [here](https://github.com/koeberlin/Latin-Character-Sets/disc
 * [Four Grotesk](https://type.hanli.eu/four-grotesk/) by HAL Typefaces
 * [Fugit](https://counter-forms.com/typefaces/fugit) by Dennis Grauel / Counter Forms
 * [Gap](https://type.hanli.eu/gap/) by HAL Typefaces
+* [Gargoyle New](https://www.multioculartype.co/type/gargoyle-new) by Multiocular Type
 * [Ghost War](https://www.multioculartype.co/type/ghost-war) by Multiocular Type
 * [Herbik](https://counter-forms.com/typefaces/herbik) by Daniel Veneklaas / Counter Forms
 * [Hot Sans](https://hottype.co/fonts/hot-sans) by Marko Hrastovec / Hot Type
+* [Juno V](https://www.multioculartype.co/type/juno-v) by Multiocular Type
+* [Kohl](https://www.dograytype.com/fonts/kohl) by José Solé & Sahar Afshar / Dogray Type Foundry
 * [Loot Drop](https://www.multioculartype.co/type/loot-drop) by Multiocular Type
 * [MD Lórien](https://mass-driver.com/typefaces/md-lorien/) by Rutherford Craze / Mass-Driver
 * [MD IO](https://mass-driver.com/typefaces/md-io) by Rutherford Craze / Mass-Driver
 * [Magic](https://type.hanli.eu/magic/) by HAL Typefaces
+* [Maryhill](https://www.multioculartype.co/type/maryhill) by Multiocular Type
 * [NaN Metrify Pan-African](https://www.nan.xyz/fonts/nan-metrify/) by NaN
 * [Multiflex](https://www.leinstertype.com/fonts/multiflex) by Troy Leinster / Leinster Type
 * [Neue DIN](https://fontwerk.com/en/fonts/neue-din) by H. Weber, A. Frohloff, O. Meier / Fontwerk
 * [Pangea & Pangea Text](https://fontwerk.com/en/fonts/pangea-superfamily) by Christoph Koeberlin / Fontwerk
 * [Pantasia](https://counter-forms.com/typefaces/pantasia) by Wei Huang / Counter Forms
+* [Pennstander](https://github.com/juliusross1/Pennstander) by Julius Ross
 * [Playfair](https://github.com/clauseggers/Playfair) by Claus Eggers Sørensen 🆓
 * [MD Polychrome](https://mass-driver.com/typefaces/md-polychrome) by Rutherford Craze / Mass-Driver
 * [Posthumous](https://www.prologuetype.co/posthumous) by Ellis Carson Jones / Prologue Type
 * [MD Primer](https://mass-driver.com/typeface/md-primer) by Rutherford Craze & Luke Charsley / Mass-Driver
 * [Retain](https://www.leinstertype.com/fonts/retain) by Ramakrishna Manda & Troy Leinster / Leinster Type
+* [Salou](https://viktornuebel.com/retail-fonts/salou/) by Viktor Nübel
+* [Twista Sans](https://viktornuebel.com/retail-fonts/twista-sans/) by Viktor Nübel
 * [Savate](https://www.plombtype.com/savate/) by Max Esnée / Plomb Type
+* [Sets Grotesk](https://www.dograytype.com/fonts/sets-grotesk) by José Solé & Sahar Afshar / Dogray Type Foundry
 * [Sudo](https://www.kutilek.de/sudo-font/) by Jens Kutílek 🆓
 * [Tausend](https://fontwerk.com/en/fonts/tausend-collection) by Christoph Koeberlin & Gabriel Richter / Fontwerk
 * [Telas](https://counter-forms.com/typefaces/telas) by Seb McLauchlan / Counter Forms
+* [Touki Grotesk](https://www.udifoundry.com/fonts/touki-grotesk) by Chisaokwu Joboson / Udi Foundry
 * [NaN Tresor](https://www.nan.xyz/fonts/nan-tresor/) by Christoph Koeberlin / NaN
 * [Unbounded](https://www.nan.xyz/custom/polkadot/) by NaN 🆓
 * [Winner Sans](https://www.myfonts.com/collections/winner-sans-font-sportsfonts) by Christoph Koeberlin & Sven Fuchs / Sportsfonts
